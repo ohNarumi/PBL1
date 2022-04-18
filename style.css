@@ -3,9 +3,39 @@ h3 {
     width: 1520px;
 }
 
+p1 {
+    color: blue;
+}
+
+maru {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: aquamarine;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-o-border-radius: 50px;
+	-ms-border-radius: 50px; 
+	border-radius: 50px;
+}
+
+maru2 {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: aquamarine;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-o-border-radius: 50px;
+	-ms-border-radius: 50px; 
+	border-radius: 50px;
+}
+
 .box1 {
 	position:relative;
 	top: 150px;
+
+    z-index: -1;
 
     margin: 2em auto;
     padding: 1em;
@@ -17,6 +47,8 @@ h3 {
 .box2 {
 	position:relative;
 	top: 180px;
+
+    z-index: -1;
 
     margin: 2em auto;
     padding: 1em;
