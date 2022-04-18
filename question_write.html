@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+ <meta charset="utf-8">
+ <link rel="stylesheet" href="question_write.css">
+ <title>質問フォーム</title>
+</head>
+<body>
+ <form action="" method="post">
+  <h1>質問投稿</h1>
+  <div>
+    <span>質問タイトル</span>
+
+    <select class="select" name="priority">
+      <option hidden>優先度</option>
+      <option value="high">高</option>
+　 　 <option value="middle">中</option>
+      <option value="Low">低</option>
+    </select><br>
+
+    <input type="text" name="name"><br>
+
+     <span>質問詳細</span>
+
+     <span>名前:</span><input type="text" name="name"><br>
+
+     <textarea id="comment" name="comment" cols="30" rows"5"></textarea>
+
+     <input type="submit" value="投稿">
+  </div>
+ </form>
+</body>
