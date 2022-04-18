@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html labg="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="stylesheet" href="style.css">
+        <title>質問詳細画面</title>
+    </head>
+
+    <body>
+        <div name="return_button" style="position:absolute; top:10px; left:10px;">
+            <button>
+                戻る
+            </button>
+        </div>
+
+        <div name="kaitou_button" style="position:absolute; top:10px; right:10px;">
+            <button>
+                回答する
+            </button>
+        </div>
+
+        <div name="title" style="position:absolute; top:50px; left:10px;">
+            <h1>バナナはおやつに入るのか？</h1>
+            <hr width="1500">
+        </div>
+
+        <div name="title" style="position:absolute; top:150px; left:10px;">
+            <u>投稿日：2018/12/25 23:48</u>
+            <hr width="1500">
+        </div>
+
+        <div name="title" style="position:absolute; top:200px; left:10px;">
+            投稿者：
+        </div>
+
+
+
+    </body>
+</html>
