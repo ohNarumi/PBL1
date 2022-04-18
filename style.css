@@ -1,0 +1,15 @@
+h3 {
+    border-bottom: 3px solid black;
+    width: 10000px;
+}
+
+.box {
+	position:relative;
+	top: 150px;
+
+    margin: 2em auto;
+    padding: 1em;
+    height: 300px;
+    background-color: #fff; /* 背景色 */
+    border: 2px solid black; /* 枠線 */
+   }
