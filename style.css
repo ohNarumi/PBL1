@@ -1,0 +1,57 @@
+.home-content {
+    text-align: center;
+    margin-top: 5%;
+}
+.test {
+    text-align: right;
+}
+.button {
+    font-size: 1.2rem;
+    background: #0bd;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 32px;
+}
+
+.area {
+    width: 1000px;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.tab_class {
+    width: calc(100%/5);
+    height: 50px;
+    background-color: darkgrey;
+    line-height: 50px;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    float: left;
+    order: -1;
+}
+
+input[name="tab_name"] {
+    display: none;
+}
+
+input:checked + .tab_class {
+    background-color: cadetblue;
+    color: aliceblue;
+}
+
+.content_class {
+    display: none;
+    width: 100%;
+}
+
+.question {
+    background-color: #a2f5bf;
+    color: #333;
+    text-decoration: none;
+}
+
+input:checked + .tab_class + .content_class {
+    display: block;
+}
