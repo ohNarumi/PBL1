@@ -8,35 +8,106 @@
 </head>
 <body>
     <div class="home-content wrapper">
-        <h1>質問一覧画面</h1>
-        <form action="cgi-bin/example.cgi" method="post">
-            <input type="search" name="search" placeholder="キーワードを入力">
-            <input type="submit" name="submit" value="検索">
-            <div class="test">
-                <a class="button" href="queshtmltion_write.html">質問投稿</a>
-            </div>
-        </form>
+        <!-- <h1>質問一覧画面</h1> -->
+            <form action="/question_index.html" method="get">
+                <input class="box_search" type="search" name="search" placeholder="キーワードを入力">
+                <input class="btn_search" type="submit" name="submit" value="検索">
+                <div class="cp_ipselect cp_sl01">
+                    <select required>
+                    <option value="" hidden>並び替え</option>
+                    <option value="1">選択肢1</option>
+                    <option value="2">選択肢2</option>
+                    <option value="3">選択肢3</option>
+                    <option value="4">選択肢4</option>
+                    </select>
+                </div>
+                <a class="a_search" href="queshtmltion_write.html">質問投稿</a>
+            </form>
         <div class="area">
             <input type="radio" name="tab_name" id="tab1" checked>
             <label class="tab_class" for="tab1">解決済</label>
             <div class="content_class">
                 <div class="question">
-                    <p>質問タイトル</p>
-                    <p>質問本文</p>
-                    <p>マーク 日付 時間 タグ</p>
+                    <p class="title">質問タイトル</p>
+                    <p class="text">質問本文(1行で収まるように表示できる文字数を制限する)</p>
+                    <img class="message_icon" src="./images/message_icon.png">
+                    <p class="message_icon_number">回答数</p>
+                    <p class="text2">日付</p>
+                    <p class="text2">時間</p>
+                    <a class="text2" href="">投稿者名</a>
+                    <a class="text2" href="">#タグ（頭に#をつける）</a>
+                    <a class="text2" href="">#タグ</a>
                 </div>
                 <div class="question">
-                    <p>質問タイトル</p>
-                    <p>質問本文</p>
-                    <p>マーク 日付 時間 タグ</p>
+                    <p class="title">バナナって？</p>
+                    <p class="text">来週遠足に行くのですが、おやつは300円までと言われました。私はとても食い意地が張っているので300円だと物足りなく感じ(略)</p>
+                    <img class="message_icon" src="./images/message_icon.png">
+                    <p class="message_icon_number">10</p>
+                    <p class="text2">4/15</p>
+                    <p class="text2">10:30</p>
+                    <a class="text2" href="">場7</a>
+                    <a class="text2" href="">#哲学</a>
+                    <a class="text2" href="">#食費</a>
                 </div>
-    
-    
+                <div class="question">
+                    <p class="title">質問タイトル</p>
+                    <p class="text">質問本文(1行で収まるように表示できる文字数を制限する)</p>
+                    <img class="message_icon" src="./images/message_icon.png">
+                    <p class="message_icon_number">回答数</p>
+                    <p class="text2">日付</p>
+                    <p class="text2">時間</p>
+                    <a class="text2" href="">投稿者名</a>
+                    <a class="text2" href="">#タグ（頭に#をつける）</a>
+                    <a class="text2" href="">#タグ</a>
+                </div>
             </div>
             <input type="radio" name="tab_name" id="tab2" >
             <label class="tab_class" for="tab2">未解決</label>
             <div class="content_class">
-                <p>タブ2のコンテンツを表示します</p>
+                <div class="question">
+                    <p class="title">質問タイトル</p>
+                    <p class="text">質問本文(1行で収まるように表示できる文字数を制限する)</p>
+                    <img class="message_icon" src="./images/message_icon.png">
+                    <p class="message_icon_number">回答数</p>
+                    <p class="text2">日付</p>
+                    <p class="text2">時間</p>
+                    <a class="text2" href="">投稿者名</a>
+                    <a class="text2" href="">#タグ（頭に#をつける）</a>
+                    <a class="text2" href="">#タグ</a>
+                </div>
+                <div class="question">
+                    <p class="title">質問タイトル</p>
+                    <p class="text">質問本文(1行で収まるように表示できる文字数を制限する)</p>
+                    <img class="message_icon" src="./images/message_icon.png">
+                    <p class="message_icon_number">回答数</p>
+                    <p class="text2">日付</p>
+                    <p class="text2">時間</p>
+                    <a class="text2" href="">投稿者名</a>
+                    <a class="text2" href="">#タグ（頭に#をつける）</a>
+                    <a class="text2" href="">#タグ</a>
+                </div>
+                <div class="question">
+                    <p class="title">質問タイトル</p>
+                    <p class="text">質問本文(1行で収まるように表示できる文字数を制限する)</p>
+                    <img class="message_icon" src="./images/message_icon.png">
+                    <p class="message_icon_number">回答数</p>
+                    <p class="text2">日付</p>
+                    <p class="text2">時間</p>
+                    <a class="text2" href="">投稿者名</a>
+                    <a class="text2" href="">#タグ（頭に#をつける）</a>
+                    <a class="text2" href="">#タグ</a>
+                </div>
+                <div class="question">
+                    <p class="title">質問タイトル</p>
+                    <p class="text">質問本文(1行で収まるように表示できる文字数を制限する)</p>
+                    <img class="message_icon" src="./images/message_icon.png">
+                    <p class="message_icon_number">回答数</p>
+                    <p class="text2">日付</p>
+                    <p class="text2">時間</p>
+                    <a class="text2" href="">投稿者名</a>
+                    <a class="text2" href="">#タグ（頭に#をつける）</a>
+                    <a class="text2" href="">#タグ</a>
+                </div>
             </div>
         </div>
     </div>
