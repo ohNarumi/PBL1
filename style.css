@@ -1,4 +1,9 @@
-h2 {
+h1 {
+    border-bottom: 3px solid black;
+    width: 100%;
+}
+
+h4 {
     border-bottom: 3px solid black;
     width: 100%;
 }
@@ -21,9 +26,9 @@ maru {
 
 maru2 {
 	display: inline-block;
-	width: 25px;
-	height: 25px;
-	background: aquamarine;
+	width: 30px;
+	height: 30px;
+	background: bisque;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	-o-border-radius: 50px;
@@ -31,28 +36,79 @@ maru2 {
 	border-radius: 50px;
 }
 
+maru3 {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: cornflowerblue;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-o-border-radius: 50px;
+	-ms-border-radius: 50px; 
+	border-radius: 50px;
+}
+
+maru4 {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: darkgrey;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-o-border-radius: 50px;
+	-ms-border-radius: 50px; 
+	border-radius: 50px;
+}
+
+
 .box1 {
 	position:relative;
-	top: 160px;
+	top: 180px;
 
     z-index: -1;
 
     margin: 2em auto;
     padding: 1em;
-    height: 340px;
+    height: 460px;
     background-color: #fff; /* 背景色 */
     border: 2px solid black; /* 枠線 */
    }
 
 .box2 {
 	position:relative;
-	top: 170px;
+	top: 200px;
 
     z-index: -1;
 
     margin: 2em auto;
     padding: 1em;
-    height: 45px;
+    height: 120px;
+    background-color: #fff; /* 背景色 */
+    border: 2px solid black; /* 枠線 */
+   }
+
+.box3 {
+	position:relative;
+	top: 190px;
+
+    z-index: -1;
+
+    margin: 2em auto;
+    padding: 1em;
+    height: 120px;
+    background-color: #fff; /* 背景色 */
+    border: 2px solid black; /* 枠線 */
+   }
+
+.box4 {
+	position:relative;
+	top: 180px;
+
+    z-index: -1;
+
+    margin: 2em auto;
+    padding: 1em;
+    height: 120px;
     background-color: #fff; /* 背景色 */
     border: 2px solid black; /* 枠線 */
    }
