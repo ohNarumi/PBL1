@@ -1,4 +1,4 @@
-h3 {
+h2 {
     border-bottom: 3px solid black;
     width: 1580px;
 }
@@ -33,26 +33,26 @@ maru2 {
 
 .box1 {
 	position:relative;
-	top: 150px;
+	top: 160px;
 
     z-index: -1;
 
     margin: 2em auto;
     padding: 1em;
-    height: 350px;
+    height: 340px;
     background-color: #fff; /* 背景色 */
     border: 2px solid black; /* 枠線 */
    }
 
 .box2 {
 	position:relative;
-	top: 180px;
+	top: 170px;
 
     z-index: -1;
 
     margin: 2em auto;
     padding: 1em;
-    height: 50px;
+    height: 45px;
     background-color: #fff; /* 背景色 */
     border: 2px solid black; /* 枠線 */
    }
