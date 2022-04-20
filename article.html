@@ -1,167 +1,16 @@
-<!doctype html>
-<html>
-    <head>
-        <meta charaset="UTF-8">
-        <title>>記事詳細画面</title>
-    </head>
-    <body>
-<style>
-    body {
-        background-color: aliceblue;
-    }
-    h1 {
-        color: mediumseagreen;
-    }
-            /* 横並び */
-.flex {
-  display: flex; /*横並び*/
-}
-.flex .image {
-  width: 640px; /*画像サイズ指定*/
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  position: relative;
-}
-.flex .right {
-  margin: 0 0 0 20px;
-  padding: 0;
-}
-.flex .title {
-  margin: 0;
-  padding: 0;
-  font-weight: bold;
-  font-size: 25px;
-}
-.flex .text {
-  margin: 10px 0 0;
-  padding: 0;
-}
-
-/* 画像を天地中央表示 */
-
-.flex .image {
-  overflow: hidden;
-  position: relative;
-}
-.flex .image::before {
-  content: "";
-  display: block;
-  padding-top: 65%;
-}
-.flex .image img {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-}
-.balloon1 {
-  position: relative;
-  display: inline-block;
-  margin: 1.5em 0;
-  padding: 7px 10px;
-  min-width: 120px;
-  max-width: 100%;
-  color: #555;
-  font-size: 16px;
-  background: #e0edff;
-}
-
-.balloon1:before {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -15px;
-  border: 15px solid transparent;
-  border-top: 15px solid #e0edff;
-}
-
-.balloon1 p {
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  position: relative;
-}
-
-.container p{
-  position: absolute;
-  padding: 5px 10px;
-}
-
-/* .container  .number{
-  top: 0;
-  right: 0;
-  margin: 0;
-  color: white;
-  background: gray;
-  font-size: 15px;
-} */
-
-.container .date{
-  bottom: 33px;
-  right: 0;
-  margin: 0;
-  color: white;
-  background: gray;
-  font-size: 15px;
-}
-
-.contents {
-  position: relative;
-}
-
-.contents {
-  position: absolute;
-  right: 10px;
-  bottom: 220px;
-}
-
-.contents .star5_rating{
-    position: relative;
-    z-index: 0;
-    display: inline-block;
-    white-space: nowrap;
-    color: #CCCCCC; /* グレーカラー 自由に設定化 */
-    font-size: 30px; /*フォントサイズ 自由に設定化 */
-}
-
-.contents .star5_rating:before, .star5_rating:after{
-    content: '★★★★★';
-}
-
-.contents .star5_rating:after{
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    white-space: nowrap;
-    color: #ffcf32; /* イエローカラー 自由に設定化 */
-}
-
-.contents .star5_rating[data-rate="5"]:after{ width: 100%; } /* 星5 */
-.contents .star5_rating[data-rate="4.5"]:after{ width: 90%; } /* 星4.5 */
-.contents .star5_rating[data-rate="4"]:after{ width: 80%; } /* 星4 */
-.contents .star5_rating[data-rate="3.5"]:after{ width: 70%; } /* 星3.5 */
-.contents .star5_rating[data-rate="3"]:after{ width: 60%; } /* 星3 */
-.contents .star5_rating[data-rate="2.5"]:after{ width: 50%; } /* 星2.5 */
-.contents .star5_rating[data-rate="2"]:after{ width: 40%; } /* 星2 */
-.contents .star5_rating[data-rate="1.5"]:after{ width: 30%; } /* 星1.5 */
-.contents .star5_rating[data-rate="1"]:after{ width: 20%; } /* 星1 */
-.contents .star5_rating[data-rate="0.5"]:after{ width: 10%; } /* 星0.5 */
-.contents .star5_rating[data-rate="0"]:after{ width: 0%; } /* 星0 */
-
-
-</style>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content=>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/article.css">
+    <title>記事詳細画面</title>
+</head>
+<body>
         <div class="flex">
           <div class="container">
-            <figure class="image"><img src="images/gori0I9A3053072102529_TP_V4.jpg" alt=""></figure>
+            <figure class="image"><img src="images/article_image.jpg" alt=""></figure>
             <!-- <p class="number">閲覧数:256件</p> -->
             <p class="date">最終更新日: 2022/4/15(金曜日)</p>
           </div>
@@ -191,6 +40,5 @@
             <i>閲覧数:256件  評価:4.0</i><span class="star5_rating" data-rate="4"></span>
           </p>
         </div>
-              
     </body>
 </html>
