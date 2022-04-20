@@ -7,26 +7,28 @@
 </head>
 <body>
  <form action="" method="post">
-  <h1>質問投稿</h1>
+  <p>質問投稿</p>
+    <span class="title-span">質問タイトル</span>
   <div>
-    <span>質問タイトル</span>
+    <input class="textbox" type="text" name="name">
 
-    <select class="select" name="priority">
+    <select class="select">
       <option hidden>優先度</option>
       <option value="high">高</option>
 　 　 <option value="middle">中</option>
-      <option value="Low">低</option>
+      <option value="low">低</option>
     </select><br>
 
-    <input type="text" name="name"><br>
+    <span class="text">名前</span>
 
-     <span>質問詳細</span>
+    <input class="textboxname" type="text" name="name">
 
-     <span>名前:</span><input type="text" name="name"><br>
+    <span class="text">質問詳細</span>
 
-     <textarea id="comment" name="comment" cols="30" rows"5"></textarea>
+    <textarea class="comment" name="comment" cols="30" rows"5"></textarea><br>
 
-     <input type="submit" value="投稿">
+    <button class="button">投稿</button>
   </div>
  </form>
 </body>
+</html>
