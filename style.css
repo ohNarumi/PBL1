@@ -12,6 +12,14 @@ p1 {
     color: blue;
 }
 
+button {
+	color:black;
+	background-color:white;
+	font-size:15;
+	width:120px;
+	height:40px;
+}
+
 maru {
 	display: inline-block;
 	width: 30px;
