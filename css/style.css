@@ -67,6 +67,10 @@ body {
     -o-transition-duration:0.3s;
     -ms-transition-duration:0.3s;
 }
+.btn:hover {
+    background-color: #6b75da;
+    color: #fff;
+}
 
 /* タグ */
 .tag {
