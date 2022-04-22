@@ -226,7 +226,6 @@ letter-spacing: 0.5pt;
 .display {
   display: flex;
 }
-
 input:checked + .tab_class + .content_class {
   display: block;
 }
