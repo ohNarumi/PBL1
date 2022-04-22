@@ -8,6 +8,10 @@
     font-size: 15px;
 }
 
+.p2 {
+    font-size: 10px;
+}
+
 .box1 {
 	position:relative;
 	top: 85px;
@@ -26,13 +30,13 @@
     float: left;    /*　左よせ */
 
 	top: -32px;
-    width: 500px;
+    width: 100%;
 
     z-index: -1;
 
     margin: 2em auto;
     padding: 1em;
-    height: 10px;
+    height: 250px;
     background-color: #fff; /* 背景色 */
     border: 2px solid white; /* 枠線 */
    }
@@ -43,25 +47,30 @@
     float: left;    /*　左よせ */
 
 	top: -32px;
+    width: 500px;
 
     z-index: -1;
 
     margin: 2em auto;
     padding: 1em;
-    height: 10px;
+    height: 250px;
     background-color: #fff; /* 背景色 */
     border: 2px solid white; /* 枠線 */
    }
 
 .box4 {
 	position:relative;
+
+    float: left;    /*　左よせ */
+
 	top: -32px;
+    width: 500px;
 
     z-index: -1;
 
     margin: 2em auto;
     padding: 1em;
-    height: 10px;
+    height: 250px;
     background-color: #fff; /* 背景色 */
     border: 2px solid white; /* 枠線 */
    }
@@ -113,3 +122,66 @@
 .tab-switch {
     display: none;
 }
+
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-item {
+    flex: 2; /* これが重要！ */
+}
+
+.box5 {
+	position:relative;
+
+    float: left;    /*　左よせ */
+
+	top: 480px;
+    width: 30%;
+
+    z-index: -1;
+
+    margin: 2em auto;
+    padding: 1em;
+    height: 80px;
+    background-color: #fff; /* 背景色 */
+    border: 2px solid white; /* 枠線 */
+   }
+
+.box6 {
+	position:relative;
+
+    float: left;    /*　左よせ */
+
+	top: 480px;
+    width: 30%;
+    left:2%;
+
+    z-index: -1;
+
+    margin: 2em auto;
+    padding: 1em;
+    height: 80px;
+    background-color: #fff; /* 背景色 */
+    border: 2px solid white; /* 枠線 */
+   }
+
+.box7 {
+	position:relative;
+
+    float: right;    /*　左よせ */
+
+	top: 70px;
+    width: 300px;
+
+    z-index: -1;
+
+    margin: 2em auto;
+    padding: 1em;
+    height: 500px;
+    background-color: #fff; /* 背景色 */
+    border: 2px solid white; /* 枠線 */
+   }
