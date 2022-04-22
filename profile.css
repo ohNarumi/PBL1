@@ -233,7 +233,7 @@ input:checked + .tab_class + .content_class {
 	display: inline-block;
 	width: 250px;
 	height: 250px;
-	background: bisque;
+	background: lightgrey;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	-o-border-radius: 50px;
