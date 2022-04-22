@@ -26,51 +26,55 @@
 
 .box2 {
 	position:relative;
+    left: 2px;
+    width: 50%;
 
     float: left;    /*　左よせ */
 
-	top: -32px;
-    width: 100%;
+	top: 80px;
 
     z-index: -1;
 
     margin: 2em auto;
     padding: 1em;
-    height: 250px;
+    height: 280px;
     background-color: #fff; /* 背景色 */
     border: 2px solid white; /* 枠線 */
+
    }
 
 .box3 {
 	position:relative;
+    left: 2px;
+    width: 50%;
 
     float: left;    /*　左よせ */
 
-	top: -32px;
-    width: 500px;
+	top: 80px;
 
     z-index: -1;
 
     margin: 2em auto;
     padding: 1em;
-    height: 250px;
+    height: 280px;
     background-color: #fff; /* 背景色 */
     border: 2px solid white; /* 枠線 */
    }
 
 .box4 {
 	position:relative;
+    left: 2px;
+    width: 50%;
 
     float: left;    /*　左よせ */
 
-	top: -32px;
-    width: 500px;
+	top: 80px;
 
     z-index: -1;
 
     margin: 2em auto;
     padding: 1em;
-    height: 250px;
+    height: 280px;
     background-color: #fff; /* 背景色 */
     border: 2px solid white; /* 枠線 */
    }
