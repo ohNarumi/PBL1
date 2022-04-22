@@ -1,0 +1,162 @@
+/* 藍色：#414BB2
+   水色：#DFF4FF
+   淡い白：#F4F3F0
+*/
+
+/* ボディ部分（背景色） */
+body {
+    background-color: #DFF4FF;
+}
+
+/* 検索ボックス */
+.box_search {
+    width: 300px;
+	height: 50px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: auto 10px;
+	padding: 6px 25px;
+	color: #414BB2;
+	font-weight: bold;
+	letter-spacing: 0.5pt;
+	text-decoration: none;
+	background-color: #ffffff;
+	border: 1px solid #414BB2;
+}
+
+/* 検索ボタン */
+.btn_search {
+    width: 100px;
+	height: 50px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 10px;
+	padding: 6px 25px;
+	color: #414BB2;
+	font-weight: bold;
+	letter-spacing: 0.5pt;
+	text-decoration: none;
+	background-color: #ffffff;
+	border: 1px solid #414BB2;
+	cursor: pointer;
+	transition-duration:0.3s;
+    -webkit-transition-duration:0.3s;
+    -moz-transition-duration:0.3s;
+    -o-transition-duration:0.3s;
+    -ms-transition-duration:0.3s;
+}
+
+/* ボタン */
+.btn {
+    width: 200px;
+	height: 50px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 10px;
+	padding: 6px 25px;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 0.5pt;
+	text-decoration: none;
+	background-color: #414BB2;
+	border: 1px solid #414BB2;
+	cursor: pointer;
+	transition-duration:0.3s;
+    -webkit-transition-duration:0.3s;
+    -moz-transition-duration:0.3s;
+    -o-transition-duration:0.3s;
+    -ms-transition-duration:0.3s;
+}
+.btn:hover {
+    background-color: #6b75da;
+    color: #fff;
+}
+
+/* タグ */
+.tag {
+    display: inline-block;
+}
+.tag ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.tag ul li {
+    display: inline-block;
+    margin: 0 .3em .3em 0;
+    padding: 0;
+}
+.tag ul li a {
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 1em 0 .75em;
+    background-color: #2196F3;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+.tag ul li a:hover {
+    background-color: #555;
+    color: #fff;
+}
+.tag ul li a:before {
+    content: "#";
+    padding-right: 2px;
+}
+
+/* プルダウンメニュー */
+/* 「.cp_ipselect」から「.cp_ipselect.cp_sl01 select」まで */
+/* htmlファイルのクラスの設定の仕方は「question_index.css」を参考にする */
+.cp_ipselect {
+    overflow: hidden;
+    width: 250px;
+    margin: 0.5rem 0 auto 0 ;
+    text-align: center;
+    display: inline-block;
+}
+.cp_ipselect select {
+    width: 250px;
+    padding-right: 1em;
+    cursor: pointer;
+    text-indent: 0.01px;
+    text-overflow: ellipsis;
+    border: none;
+    outline: none;
+    background: transparent;
+    background-image: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+.cp_ipselect select::-ms-expand {
+    display: none;
+}
+.cp_ipselect.cp_sl01 {
+    position: relative;
+    border-radius: 2px;
+    border: 1px solid #414BB2;
+    background: #ffffff;
+}
+.cp_ipselect.cp_sl01::before {
+    position: absolute;
+    top: 0.8em;
+    right: 0.8em;
+    width: 0;
+    height: 0;
+    padding: 0;
+    content: '';
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #414BB2;
+    pointer-events: none;
+}
+.cp_ipselect.cp_sl01 select {
+    padding: 8px 38px 8px 8px;
+    color: #414BB2;
+    font-weight: bold;
+}
