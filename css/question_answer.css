@@ -1,0 +1,102 @@
+/*  戻るボタン */
+.return_button {
+  position:absolute;
+  top:10px;
+  left:10px;
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px;
+  padding: 6px 25px;
+  color: #414BB2;
+  font-weight: bold;
+  letter-spacing: 0.5pt;
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid #414BB2;
+  cursor: pointer;
+  transition-duration:0.3s;
+  -webkit-transition-duration:0.3s;
+  -moz-transition-duration:0.3s;
+  -o-transition-duration:0.3s;
+  -ms-transition-duration:0.3s;
+}
+
+.round {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: aquamarine;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-o-border-radius: 50px;
+	-ms-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.question_title{
+  position:absolute;
+  top:60px;
+  left:10px;
+}
+
+.question_date{
+  position:absolute;
+  top:115px;
+  right:10px;
+}
+
+.question_user_icon{
+  position:absolute;
+  top:166px;
+  right:79px;
+}
+
+.question_user_icon_photo{
+  position:absolute;
+  top:170px;
+  right:83px;
+}
+
+.question_photo{
+  position:absolute;
+  top:230px;
+  left:30px;
+}
+
+.question_box {
+	position:relative;
+	top: 180px;
+
+    z-index: -1;
+
+    margin: 2em auto;
+    padding: 1em;
+    height: 460px;
+    background-color: #fff; /* 背景色 */
+    border: 2px solid white; /* 枠線 */
+}
+
+.question_data{
+  position:absolute;
+  top:0px;
+  left:850px;
+}
+
+.question_tag{
+  position:absolute;
+  top:670px;
+  left:30px;
+}
+
+.user_data{
+  position:absolute;
+  top:150px;
+  right:10px;
+}
+
+.underbar{
+  border-bottom: 3px solid black;
+  width: 100%;
+}
