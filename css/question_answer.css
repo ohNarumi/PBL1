@@ -69,13 +69,13 @@
 	position:relative;
 	top: 180px;
 
-    z-index: -1;
+  z-index: -1;
 
-    margin: 2em auto;
-    padding: 1em;
-    height: 460px;
-    background-color: #fff; /* 背景色 */
-    border: 2px solid white; /* 枠線 */
+  margin: 2em auto;
+  padding: 1em;
+  height: 460px;
+  background-color: #fff; /* 背景色 */
+  border: 2px solid white; /* 枠線 */
 }
 
 .question_data{
@@ -94,6 +94,35 @@
   position:absolute;
   top:150px;
   right:10px;
+}
+
+.answer_box{
+  position:relative;
+	top: 180px;
+
+  margin: 2em auto;
+  padding: 1em;
+  height: 260px;
+  background-color: #fff; /* 背景色 */
+  border: 2px solid white; /* 枠線 */
+}
+
+.answer_text{
+  resize: none;
+  width: 100%;
+  height: 100%;
+}
+
+.answer_button{
+  position:relative;
+  margin-left:auto;
+  top: 170px;
+}
+
+.right_button{
+  position:absolute;
+	right:10px;
+	top:10px;
 }
 
 .underbar{
