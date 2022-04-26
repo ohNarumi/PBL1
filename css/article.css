@@ -19,7 +19,7 @@ position: relative;
 margin: 0 0 0 20px;
 padding: 0;
 }
-.flex .title {
+.flex .titles {
 margin: 0;
 padding: 0;
 font-weight: bold;
@@ -349,4 +349,71 @@ maru4 {
     -moz-transition-duration:0.3s;
     -o-transition-duration:0.3s;
     -ms-transition-duration:0.3s;
+}
+.btn_edit {
+	position:absolute;
+	right:0;
+	margin: 1rem;
+}
+
+textarea:focus {
+	border-color: #56a9ff;
+	outline: 0;
+}
+
+.contact-table {
+	width: 90%;
+	margin: 1rem;
+}
+
+.contact-item,
+.contact-body {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.contact-item {
+    text-align: left;
+    width: 15%;
+    background-color: #eee;
+}
+
+.contact-body {
+    width: 85%;
+}
+
+.form-textarea {
+    width: 96%;
+    padding: 10px;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.contact-submit {
+	width: 250px;
+	background-color: #414BB2;
+	color: #fff;
+	font-weight: bold;
+	display: block;
+	margin: 0 auto;
+	padding: 15px;
+	border: none;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	cursor: pointer;
+  } 
+
+  .title {
+    display: inline-block;
+	margin: 1rem auto;
+	padding: 1rem 1rem 0;
+	color: #414BB2;
+	font-weight: bold;
+    font-size: 2rem;
+	letter-spacing: 0.5pt;
 }
