@@ -11,13 +11,16 @@
 
         <!-- "戻る" ボタン -->
         <div name="return_button" style="position:absolute; top:10px; left:10px;">
-            <input style="color:black;background-color:white;font-size:15;width:120px;height:40px" type="button" value="戻る">
+            <!-- <input style="color:black;background-color:white;font-size:15;width:120px;height:40px" type="button" value="戻る"> -->
+            <input type="submit" name="submit" value="戻る" class="return_button" >
         </div>
 
 
         <!-- "回答する" ボタン -->
+
         <div name="kaitou_button" style="position:absolute; top:10px; right:10px;">
-            <input style="color:black;background-color:white;font-size:15;width:120px;height:40px" type="button" value="回答する">
+            <!-- <input style="color:black;background-color:white;font-size:15;width:120px;height:40px" type="button" value="回答する"> -->
+            <input type="submit" name="submit" value="回答する" class="btn" >
         </div>
 
 
@@ -34,8 +37,7 @@
 
 
         <!-- 投稿者のアイコン -->
-        <div name="situmon_toukousya_aikon_maru" style="position:absolute; top:166px; right:79px;">
-            <maru>
+        <div name="situmon_toukousya_aikon_maru" style="position:absolute; top:166px; right:79px;" class="maru">
         </div>
 
         <div name="situmon_toukousya_aikon_photo" style="position:absolute; top:170px; right:83px;">
@@ -68,8 +70,17 @@
 
 
         <!-- ハッシュタグ -->
-        <div name="tagu" style="position:absolute; top:675px; left:30px;">
-            <p1>#タグ　　#タグ　　#タグ　　#タグ　　#タグ</p1>
+        <div name="tagu" style="position:absolute; top:670px; left:30px;">
+            <section class="tag">
+                <ul>
+                    <li><a href="#"><span>タグ</span></a></li>
+                    <li><a href="#"><span>タグ</span></a></li>
+                    <li><a href="#"><span>タグ</span></a></li>
+                    <li><a href="#"><span>タグ</span></a></li>
+                    <li><a href="#"><span>タグ</span></a></li>
+                    <li><a href="#"><span>タグ</span></a></li>
+                </ul>
+            </section>
         </div>
 
 
@@ -86,8 +97,7 @@
 
 
         <!-- 回答（投稿者のアイコン） -->
-        <div name="kaitou1_Toukousya_aikon" style="position:absolute; top:768px; left:20px;">
-            <maru2>
+        <div name="kaitou1_Toukousya_aikon" style="position:absolute; top:768px; left:20px;" class="maru2">
         </div>
 
         <div name="kaitou1_Toukousya_photo" style="position:absolute; top:772px; left:25px;">
@@ -114,8 +124,7 @@
 
 
         <!-- 回答2（投稿者のアイコン） -->
-        <div name="kaitou2_Toukousya_aikon" style="position:absolute; top:945px; left:20px;">
-            <maru3>
+        <div name="kaitou2_Toukousya_aikon" style="position:absolute; top:945px; left:20px;" class="maru3">
         </div>
 
 
@@ -143,8 +152,7 @@
 
 
         <!-- 回答3（投稿者のアイコン） -->
-        <div name="Tkaitou2_Toukousya_aikon" style="position:absolute; top:1123px; left:20px;">
-            <maru4>
+        <div name="Tkaitou2_Toukousya_aikon" style="position:absolute; top:1123px; left:20px;" class="maru4">
         </div>
 
 
@@ -166,9 +174,9 @@
 
 
         <!-- 続きを見る -->
-        <div name="next_button">
+        <div>
             <center>
-                <button style="position:absolute; top:1300px;">
+                <button style="position:absolute; top:1300px;" class="next_button">
                     続きを見る
                 </button>
             </center>
