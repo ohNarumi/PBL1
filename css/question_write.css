@@ -1,0 +1,69 @@
+p {
+    font-size: 40px;
+    text-align: center;
+}
+
+div {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+
+.title-span {
+  display: block;
+  font-size: 25px;
+  text-align: center;
+}
+
+.textbox {
+  width: 20%;
+  height: 35px;
+  margin-left: 6%;
+  font-size: 30px;
+  border: 1px solid #414BB2;
+}
+
+.select {
+  display: inline-block;
+  width: 100%;
+  max-width: 80px;
+  height: 40px;
+  margin: 0px 10px;
+  padding: 0px 5px;
+  font-size: 15px;
+  line-height: 1.75;
+  -ms-word-break: normal;
+  word-break: normal;
+  vertical-align: top;
+  border: 1px solid #414BB2;
+  background: #ffffff;
+}
+
+.text {
+  display: block;
+  padding-top: 3%;
+  font-size: 25px;
+  text-align: center;
+}
+
+.textboxname {
+  width: 13%;
+  height: 35px;
+  font-size: 30px;
+  text-align: center;
+  border: 1px solid #414BB2;
+}
+
+.comment {
+  display: inline;
+  width: 60%;
+  height: 250px;
+  font-size: 25px;
+  border: 1px solid #414BB2;
+}
+
+.button {
+  width: 100%;
+  max-width: 150px;
+  height: 50px;
+}
