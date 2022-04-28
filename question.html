@@ -1,187 +1,27 @@
 <!DOCTYPE html>
 <html labg="ja">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="./css/question.css">
-        <title>質問詳細画面</title>
-    </head>
-
-    <body>
-
-        <!-- "戻る" ボタン -->
-        <div name="return_button" style="position:absolute; top:10px; left:10px;">
-            <!-- <input style="color:black;background-color:white;font-size:15;width:120px;height:40px" type="button" value="戻る"> -->
-            <input type="submit" name="submit" value="戻る" class="return_button" >
-        </div>
-
-
-        <!-- "回答する" ボタン -->
-
-        <div name="kaitou_button" style="position:absolute; top:10px; right:10px;">
-            <!-- <input style="color:black;background-color:white;font-size:15;width:120px;height:40px" type="button" value="回答する"> -->
-            <input type="submit" name="submit" value="回答する" class="btn" >
-        </div>
-
-
-        <!-- タイトル -->
-        <div name="toukou_title" style="position:absolute; top:60px; left:10px;">
-            <h1>ここには質問のタイトルが入ります。</h1>
-        </div>
-
-
-        <!-- 投稿日 -->
-        <div name="toukousya_Toukoubi" style="position:absolute; top:115px; right:10px;">
-            <h4>投稿日：2018/12/25 23:48</h4>
-        </div>
-
-
-        <!-- 投稿者のアイコン -->
-        <div name="situmon_toukousya_aikon_maru" style="position:absolute; top:166px; right:79px;" class="maru">
-        </div>
-
-        <div name="situmon_toukousya_aikon_photo" style="position:absolute; top:170px; right:83px;">
-            <img src="./images/user_icon_1.png" width="18" height="18">
-        </div>
-
-
-        <!-- 質問投稿者 -->
-        <div name="Toukousya_data" style="position:absolute; top:150px; right:10px;">
-            <h4>投稿者：　　冨安健洋</h4>
-        </div>
-
-
-        <!-- 質問の添付写真 -->
-        <div name="Toukousya_photo" style="position:absolute; top:230px; left:30px;">
-            <img src="./images/image_3.jpg" width="768" height="432">
-        </div>
-
-
-        <!-- 質問の内容 -->
-        <div class="box1" >
-            <div name="situmon_data" style="position:absolute; top:0px; left:850px;">
-                <p>ここには質問内容が入ります。ここには質問内容が入ります。ここには質問内容が入ります。
-                    ここには質問内容が入ります。ここには質問内容が入ります。ここには質問内容が入ります。
-                    ここには質問内容が入ります。ここには質問内容が入ります。ここには質問内容が入ります。
-                    ここには質問内容が入ります。ここには質問内容が入ります。ここには質問内容が入ります。
-                    ここには質問内容が入ります。ここには質問内容が入ります。ここには質問内容が入ります。</p>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/question.css">
+    <title>質問詳細画面</title>
+</head>
+<body>
+        <div class="contributor">
+            <div class="content_top">
+                <p class="title">ここにタイトルが入ります</p>
+                <p class="content_top_text">投稿日：2022/04/21 20:00<br>投稿者：　 ソフトⅣ 神戸 電子</p>
             </div>
-        </div>
-
-
-        <!-- ハッシュタグ -->
-        <div name="tagu" style="position:absolute; top:670px; left:30px;">
             <section class="tag">
                 <ul>
                     <li><a href="#"><span>タグ</span></a></li>
                     <li><a href="#"><span>タグ</span></a></li>
-                    <li><a href="#"><span>タグ</span></a></li>
-                    <li><a href="#"><span>タグ</span></a></li>
-                    <li><a href="#"><span>タグ</span></a></li>
-                    <li><a href="#"><span>タグ</span></a></li>
                 </ul>
             </section>
-        </div>
-
-
-        <!-- 回答 -->
-        <div name="Kaitou" style="position:absolute; top:710px; left:10px; color:red;">
-            <h3>回答</h3>
-        </div>
-
-        
-        <!-- 回答（投稿者情報） -->
-        <div name="kaitou1_Toukousya_data" style="position:absolute; top:755px; left:55px;">
-            <p>遠藤 航　　投稿日:2018/12/25　23:59</p>
-        </div>
-
-
-        <!-- 回答（投稿者のアイコン） -->
-        <div name="kaitou1_Toukousya_aikon" style="position:absolute; top:768px; left:20px;" class="maru2">
-        </div>
-
-        <div name="kaitou1_Toukousya_photo" style="position:absolute; top:772px; left:25px;">
-            <img src="./images/user_icon_2.png" width="20" height="20">
-        </div>
-
-
-        <!-- 回答（投稿者のコメント） -->
-        <div class="box2" >
-            <div name="kaitou1_data" style="position:absolute; top:30px; left:60px;">
-                <p>ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。
-                    ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。
-                    ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。
-                    ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。
-                    ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。</p>
+            <div>
+                <img class="" src="./images/image_1.jpg" alt="">
             </div>
+            <input type="submit" name="submit" value="編集" class="btn btn_edit" >
         </div>
-
-
-        <!-- 回答2（投稿者情報） -->
-        <div name="kaitou2_Toukousya_data" style="position:absolute; top:935px; left:55px;">
-            <p>南野 拓実　　投稿日:2018/12/26　00:01</p>
-        </div>
-
-
-        <!-- 回答2（投稿者のアイコン） -->
-        <div name="kaitou2_Toukousya_aikon" style="position:absolute; top:945px; left:20px;" class="maru3">
-        </div>
-
-
-        <div name="kaitou2_Toukousya_photo" style="position:absolute; top:950px; left:25px;">
-            <img src="./images/user_icon_3.png" width="20" height="20">
-        </div>
-
-
-        <!-- 回答2（投稿者のコメント） -->
-        <div class="box3" >
-            <div name="kaitou2_data" style="position:absolute; top:30px; left:60px;">
-                <p>ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。
-                    ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。
-                    ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。
-                    ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。
-                    ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。</p>
-            </div>
-        </div>
-
-
-        <!-- 回答3（投稿者情報） -->
-        <div name="kaitou3_Toukousya_data" style="position:absolute; top:1112px; left:55px;">
-            <p>田中 碧　　投稿日:2018/12/27　08:51</p>
-        </div>
-
-
-        <!-- 回答3（投稿者のアイコン） -->
-        <div name="Tkaitou2_Toukousya_aikon" style="position:absolute; top:1123px; left:20px;" class="maru4">
-        </div>
-
-
-        <div name="kaitou2_Toukousya_photo" style="position:absolute; top:1128px; left:25px;">
-            <img src="./images/user_icon_4.jpg" width="20" height="20">
-        </div>
-
-        
-        <!-- 回答3（投稿者のコメント） -->
-        <div class="box4" >
-            <div name="kaitou3_data" style="position:absolute; top:30px; left:60px;">
-                <p>ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。
-                    ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。
-                    ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。
-                    ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。
-                    ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。</p>
-            </div>
-        </div>
-
-
-        <!-- 続きを見る -->
-        <div>
-            <center>
-                <button style="position:absolute; top:1300px;" class="next_button">
-                    続きを見る
-                </button>
-            </center>
-        </div>
-        
-    </body>
-
+</body>
 </html>
