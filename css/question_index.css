@@ -87,3 +87,19 @@ input:checked + .tab_class {
 input:checked + .tab_class + .content_class {
     display: block;
 }
+
+.a_btn {
+    margin: 0 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background: #414BB2;;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.a_btn:hover {
+    background-color: #6b75da;
+    color: #fff;
+}
