@@ -10,205 +10,203 @@
 
     <body>
 
-        <div style="position:absolute; top:15px; left:10px;">
-            <input type="submit" name="submit" value="リセット" class="riset_button" >
-        </div>
+        <form>
 
-        <div style="position:absolute; top:15px; right:10px;">
-            <input type="submit" name="submit" value="投稿" class="btn" >
-        </div>
-
-        <div class="p" style="position:absolute; top:90px; left:10px;">
-            タイトル
-        </div>
-
-        <div class="box1">
-            <div class="p1" style="position:absolute; top:5px; left:10px;">
-                ここにはタイトルが入ります。
+            <!--　リセットボタン　-->
+            <div style="position:absolute; top:15px; left:92px;">
+                <input type="reset" value="リセット" class="riset_button" >
             </div>
-        </div>
 
-        <div class="tab-wrap" style="position:absolute; top:180px; left:10px;">
-            <input id="TAB-01" type="radio" name="TAB" class="tab-switch" checked="checked" /><label class="tab-label" for="TAB-01">概要</label>
-            <div class="tab-content">
-                <div class="box2">
-                    <div class="p1" style="position:absolute; top:5px; left:10px;">
-                        <div class="p2">
-                            概要を記載します。概要を記載します。概要を記載します。概要を記載します。概要を記載します。
-                            概要を記載します。概要を記載します。概要を記載します。概要を記載します。概要を記載します。
-                            概要を記載します。概要を記載します。概要を記載します。概要を記載します。概要を記載します。
-                            概要を記載します。概要を記載します。概要を記載します。概要を記載します。概要を記載します。
-                            概要を記載します。概要を記載します。概要を記載します。概要を記載します。概要を記載します。
-                            概要を記載します。概要を記載します。概要を記載します。概要を記載します。概要を記載します。
-                            概要を記載します。概要を記載します。概要を記載します。概要を記載します。概要を記載します。
-                            概要を記載します。概要を記載します。概要を記載します。概要を記載します。概要を記載します。
-                            概要を記載します。概要を記載します。概要を記載します。概要を記載します。概要を記載します。
+            <!--　投稿ボタン　-->
+            <div style="position:absolute; top:15px; right:100px;">
+                <input type="submit" name="submit" value="投稿" class="btn" >
+            </div>
+
+            <!--　タイトル表示　-->
+            <div class="p" style="position:absolute; top:90px; left:100px;">
+                タイトル
+            </div>
+
+            <!--　タイトル入力欄　-->
+            <input class="textbox" type="text" name="name" value="ここにはタイトルが入ります" style="position:absolute; top:120px; left:100px;">
+
+            <!--　概要・アピール・動作環境入力欄　-->
+            <div class="tab-wrap" style="position:absolute; top:180px; left:100px;">
+                <input id="TAB-01" type="radio" name="TAB" class="tab-switch" checked="checked" /><label class="tab-label" for="TAB-01">概要</label>
+                <div class="tab-content">
+                    <textarea class="textarea" name="name1" rows=”3″ cols=”50″ wrap=”hard” style="position:absolute; left:-1px;">ここには概要が入ります。ここには概要が入ります。ここには概要が入ります。ここには概要が入ります。ここには概要が入ります。ここには概要が入ります。ここには概要が入ります。ここには概要が入ります。ここには概要が入ります。ここには概要が入ります。
+                    </textarea>
+                </div>
+                <input id="TAB-02" type="radio" name="TAB" class="tab-switch" /><label class="tab-label" for="TAB-02">アピール</label>
+                <div class="tab-content">
+                    <textarea class="textarea" name="name2" rows=”3″ cols=”50″ wrap=”hard” style="position:absolute; left:-1px;">ここにはアピールが入ります。ここにはアピールが入ります。ここにはアピールが入ります。ここにはアピールが入ります。ここにはアピールが入ります。ここにはアピールが入ります。ここにはアピールが入ります。ここにはアピールが入ります。ここにはアピールが入ります。ここにはアピールが入ります。
+                    </textarea>
+                </div>
+                <input id="TAB-03" type="radio" name="TAB" class="tab-switch" /><label class="tab-label" for="TAB-03">動作環境</label>
+                <div class="tab-content">
+                    <textarea class="textarea" name="name3" rows=”3″ cols=”50″ wrap=”hard” style="position:absolute; left:-1px;">OS:Windowse&#13;&#10;&#13;&#10;推奨ブラウザ：Chrom&#13;&#10;&#13;&#10;その他：なし
+                    </textarea>
+                </div>
+            </div>
+
+            <div class="wrap">
+                <div class="box5">
+                    <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:15px; left:50px;">
+                    <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:15px; left:150px;">
+                    <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:15px; left:250px;">
+                    <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:15px; left:350px;">
+                    <div class="p3" style="position:absolute; top:85px; left:50px;">
+                        〇〇〇.jar
+                    </div>
+            
+                    <div class="p3" style="position:absolute; top:85px; left:150px;">
+                        〇〇〇.txt
+                    </div>
+            
+                    <div class="p3" style="position:absolute; top:85px; left:245px;">
+                        〇〇〇.doxt
+                    </div>
+                    <div class="p3" style="position:absolute; top:85px; left:345px;">
+                        〇〇〇.doxt
+                    </div>
+                    <div class="wrapper" style="position:absolute; top:-70px; left:10px;">
+                        <div class="contents">
                         </div>
                     </div>
                 </div>
-            </div>
-            <input id="TAB-02" type="radio" name="TAB" class="tab-switch" /><label class="tab-label" for="TAB-02">アピール</label>
-            <div class="tab-content">
-                <div class="box3">
-                    <div class="p1" style="position:absolute; top:5px; left:10px;">
-                        <div class="p2">
-                            アピールを記載します。アピールを記載します。アピールを記載します。アピールを記載します。
-                            アピールを記載します。アピールを記載します。アピールを記載します。アピールを記載します。
-                            アピールを記載します。アピールを記載します。アピールを記載します。アピールを記載します。
-                            アピールを記載します。アピールを記載します。アピールを記載します。アピールを記載します。
+                <div class="box6">
+                    <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:15px; left:50px;">
+                    <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:15px; left:150px;">
+                    <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:15px; left:250px;">
+                    <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:15px; left:350px;">
+                    <div class="p3" style="position:absolute; top:85px; left:50px;">
+                        〇〇〇.jpg
+                    </div>
+            
+                    <div class="p3" style="position:absolute; top:85px; left:150px;">
+                        〇〇〇.png
+                    </div>
+            
+                    <div class="p3" style="position:absolute; top:85px; left:245px;">
+                        〇〇〇.png
+                    </div>
+                    <div class="p3" style="position:absolute; top:85px; left:345px;">
+                        〇〇〇.png
+                    </div>
+                    <div class="wrapper" style="position:absolute; top:-70px; left:10px;">
+                        <div class="contents">
                         </div>
                     </div>
                 </div>
-            </div>
-            <input id="TAB-03" type="radio" name="TAB" class="tab-switch" /><label class="tab-label" for="TAB-03">動作環境</label>
-            <div class="tab-content">
-                <div class="box4">
-                    <div class="p1" style="position:absolute; top:5px; left:10px;">
-                        <div class="p2">
-                            動作環境を記載します。動作環境を記載します。動作環境を記載します。動作環境を記載します。
-                            動作環境を記載します。動作環境を記載します。動作環境を記載します。動作環境を記載します。
-                            動作環境を記載します。動作環境を記載します。動作環境を記載します。動作環境を記載します。
-                            動作環境を記載します。動作環境を記載します。動作環境を記載します。動作環境を記載します。
+
+                <div class="box7">
+                    
+                    <div class="form-check-inline" style="position:absolute; top:105px; left:22px;transform:scale(1.2);">
+                        <div class="custom-control custom-checkbox">
+                        <input class="custom-control-input" type="checkbox" id="custom-check1">
+                        <label class="custom-control-label" for="custom-check1">Java</label>
+                        </div>
+                    </div>
+                    <div class="form-check-inline" style="position:absolute; top:135px; left:21px;transform:scale(1.2);">
+                        <div class="custom-control custom-checkbox">
+                        <input class="custom-control-input" type="checkbox" id="custom-check2">
+                        <label class="custom-control-label" for="custom-check2">C#</label>
+                        </div>
+                    </div>
+                    <div class="form-check-inline" style="position:absolute; top:165px; left:21px;transform:scale(1.2);">
+                        <div class="custom-control custom-checkbox">
+                        <input class="custom-control-input" type="checkbox" id="custom-check3" checked="checked">
+                        <label class="custom-control-label" for="custom-check3">〇〇</label>
+                        </div>
+                    </div>
+                    <div class="form-check-inline" style="position:absolute; top:195px; left:21px;transform:scale(1.2);">
+                        <div class="custom-control custom-checkbox">
+                        <input class="custom-control-input" type="checkbox" id="custom-check4">
+                        <label class="custom-control-label" for="custom-check3">〇〇</label>
+                        </div>
+                    </div>
+                    <div class="form-check-inline" style="position:absolute; top:225px; left:21px;transform:scale(1.2);">
+                        <div class="custom-control custom-checkbox">
+                        <input class="custom-control-input" type="checkbox" id="custom-check5" checked="checked">
+                        <label class="custom-control-label" for="custom-check3">〇〇</label>
+                        </div>
+                    </div>
+                    <div class="form-check-inline" style="position:absolute; top:255px; left:21px;transform:scale(1.2);">
+                        <div class="custom-control custom-checkbox">
+                        <input class="custom-control-input" type="checkbox" id="custom-check6" checked="checked">
+                        <label class="custom-control-label" for="custom-check3">〇〇</label>
+                        </div>
+                    </div>
+                    <div class="form-check-inline" style="position:absolute; top:285px; left:21px;transform:scale(1.2);">
+                        <div class="custom-control custom-checkbox">
+                        <input class="custom-control-input" type="checkbox" id="custom-check7">
+                        <label class="custom-control-label" for="custom-check3">〇〇</label>
+                        </div>
+                    </div>
+                    <div class="form-check-inline" style="position:absolute; top:315px; left:21px;transform:scale(1.2);">
+                        <div class="custom-control custom-checkbox">
+                        <input class="custom-control-input" type="checkbox" id="custom-check8" checked="checked">
+                        <label class="custom-control-label" for="custom-check3">〇〇</label>
+                        </div>
+                    </div>
+                    <div class="form-check-inline" style="position:absolute; top:345px; left:21px;transform:scale(1.2);">
+                        <div class="custom-control custom-checkbox">
+                        <input class="custom-control-input" type="checkbox" id="custom-check9" checked="checked">
+                        <label class="custom-control-label" for="custom-check3">〇〇</label>
+                        </div>
+                    </div>
+                    <div class="form-check-inline" style="position:absolute; top:375px; left:21px;transform:scale(1.2);">
+                        <div class="custom-control custom-checkbox">
+                        <input class="custom-control-input" type="checkbox" id="custom-check9" checked="checked">
+                        <label class="custom-control-label" for="custom-check3">〇〇</label>
+                        </div>
+                    </div>
+                    <div class="p1" style="position:absolute; top:20px; left:20px;">
+                        タグを選択
+                    </div>
+                    
+                    <div style="position:absolute; top:50px; left:11px;"> 
+                        <input type="search" name="search" placeholder="キーワードを入力" class="searche">
+                    </div>
+
+                    <div class="p1" style="position:absolute; top:425px; left:20px;">
+                        <u>選択済み</u>
+                    </div>
+                    <div class="p1" style="position:absolute; top:450px; left:20px;">
+                        〇〇〇　,　〇〇〇　,　〇〇〇
+                        <br>
+                        〇〇〇　,　〇〇〇　,　〇〇〇
+                        <br>
+                        〇〇〇　,　〇〇〇　,　〇〇〇
+                    </div>
+                    <div class="wrapper2" style="position:absolute; top:105px; right:10px;">
+                        <div class="contents">
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="wrap">
-            <div class="box5">
-                <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:10px; left:10px;">
-                <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:10px; left:110px;">
-                <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:10px; left:210px;">
-                <div class="p3" style="position:absolute; top:75px; left:10px;">
-                    〇〇〇.jar
                 </div>
-        
-                <div class="p3" style="position:absolute; top:75px; left:110px;">
-                    〇〇〇.txt
-                </div>
-        
-                <div class="p3" style="position:absolute; top:75px; left:210px;">
-                    〇〇〇.doxt
-                </div>
-                <div class="wrapper" style="position:absolute; top:-70px; left:10px;">
-                    <div class="contents">
-                    </div>
-                </div>
-            </div>
-            <div class="box6">
-                <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:10px; left:10px;">
-                <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:10px; left:110px;">
-                <div class="p3" style="position:absolute; top:75px; left:10px;">
-                    〇〇〇.jpg
-                </div>
-                <div class="p3" style="position:absolute; top:75px; left:110px;">
-                    〇〇〇.jpg
-                </div>
-                <div class="wrapper" style="position:absolute; top:-70px; left:10px;">
-                    <div class="contents">
-                    </div>
-                </div>
-            </div>
-            <div class="box7">
-                <div class="form-check-inline" style="position:absolute; top:100px; left:10px;transform:scale(1.2);">
-                    <div class="custom-control custom-checkbox">
-                      <input class="custom-control-input" type="checkbox" id="custom-check1">
-                      <label class="custom-control-label" for="custom-check1">Java</label>
-                    </div>
-                </div>
-                <div class="form-check-inline" style="position:absolute; top:130px; left:10px;transform:scale(1.2);">
-                    <div class="custom-control custom-checkbox">
-                      <input class="custom-control-input" type="checkbox" id="custom-check2">
-                      <label class="custom-control-label" for="custom-check2">C#</label>
-                    </div>
-                </div>
-                <div class="form-check-inline" style="position:absolute; top:160px; left:10px;transform:scale(1.2);">
-                    <div class="custom-control custom-checkbox">
-                      <input class="custom-control-input" type="checkbox" id="custom-check3">
-                      <label class="custom-control-label" for="custom-check3">〇〇</label>
-                    </div>
-                </div>
-                <div class="form-check-inline" style="position:absolute; top:190px; left:10px;transform:scale(1.2);">
-                    <div class="custom-control custom-checkbox">
-                      <input class="custom-control-input" type="checkbox" id="custom-check3">
-                      <label class="custom-control-label" for="custom-check3">〇〇</label>
-                    </div>
-                </div>
-                <div class="form-check-inline" style="position:absolute; top:220px; left:10px;transform:scale(1.2);">
-                    <div class="custom-control custom-checkbox">
-                      <input class="custom-control-input" type="checkbox" id="custom-check3">
-                      <label class="custom-control-label" for="custom-check3">〇〇</label>
-                    </div>
-                </div>
-                <div class="form-check-inline" style="position:absolute; top:250px; left:10px;transform:scale(1.2);">
-                    <div class="custom-control custom-checkbox">
-                      <input class="custom-control-input" type="checkbox" id="custom-check3">
-                      <label class="custom-control-label" for="custom-check3">〇〇</label>
-                    </div>
-                </div>
-                <div class="form-check-inline" style="position:absolute; top:280px; left:10px;transform:scale(1.2);">
-                    <div class="custom-control custom-checkbox">
-                      <input class="custom-control-input" type="checkbox" id="custom-check3">
-                      <label class="custom-control-label" for="custom-check3">〇〇</label>
-                    </div>
-                </div>
-                <div class="form-check-inline" style="position:absolute; top:310px; left:10px;transform:scale(1.2);">
-                    <div class="custom-control custom-checkbox">
-                      <input class="custom-control-input" type="checkbox" id="custom-check3">
-                      <label class="custom-control-label" for="custom-check3">〇〇</label>
-                    </div>
-                </div>
-                <div class="form-check-inline" style="position:absolute; top:340px; left:10px;transform:scale(1.2);">
-                    <div class="custom-control custom-checkbox">
-                      <input class="custom-control-input" type="checkbox" id="custom-check3">
-                      <label class="custom-control-label" for="custom-check3">〇〇</label>
-                    </div>
-                </div>
-                <div class="p1" style="position:absolute; top:20px; left:10px;">
-                    タグを選択
-                </div>
-                <div style="position:absolute; top:50px; left:0px;"> 
-                    <input type="search" name="search" placeholder="キーワードを入力" class="searche">
-                </div>
-
-                <div class="p1" style="position:absolute; top:390px; left:10px;">
-                    <u>選択済み</u>
-                </div>
-                <div class="p1" style="position:absolute; top:420px; left:10px;">
-                    〇〇〇　,　〇〇〇　,　〇〇〇
-                    <br>
-                    〇〇〇　,　〇〇〇　,　〇〇〇
-                    <br>
-                    〇〇〇　,　〇〇〇　,　〇〇〇
-                </div>
-                <div class="wrapper2" style="position:absolute; top:100px; right:10px;">
-                    <div class="contents">
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
-
-        <div class="wrap">
-            <div style="position:absolute; top:575px; left:320px;">
-                <input type="submit" name="submit" value="ファイル選択" class="fail_button" >
             </div>
 
-            <div style="position:absolute; top:575px; left:150px;">
-                <input type="submit" name="submit" value="URL" class="fail_button" >
-            </div>
+            <div class="wrap">
+                <div style="position:absolute; top:575px; left:413px;">
+                    <input type="submit" name="submit" value="ファイル選択" class="fail_button" >
+                </div>
 
-            <div class="p" style="position:absolute; top:580px; left:10px;">
-                添付物・URL
-            </div>
+                <div style="position:absolute; top:575px; left:250px;">
+                    <input type="submit" name="submit" value="URL" class="fail_button" >
+                </div>
 
-            <div class="p" style="position:absolute; top:580px; left:500px;">
-                画像
-            </div>
+                <div class="p" style="position:absolute; top:580px; left:100px;">
+                    添付物・URL
+                </div>
 
-            <div style="position:absolute; top:575px; left:750px;">
-                <input type="submit" name="submit" value="画像を選択" class="fail_button" >
+                <div class="p" style="position:absolute; top:580px; left:595px;">
+                    画像
+                </div>
+
+                <div style="position:absolute; top:575px; left:910px;">
+                    <input type="submit" name="submit" value="画像を選択" class="fail_button" >
+                </div>
             </div>
-        </div>
+        </form>
     </body>

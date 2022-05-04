@@ -28,69 +28,14 @@
     border: 1px solid white; /* 枠線 */
 }
 
-.box2 {
-	position:relative;
-    left: 0px;
-    width: 305%;
-
-    float: left;    /*　左よせ */
-
-	top: -32px;
-
-    z-index: -1;
-
-    margin: 2em auto;
-    padding: 1em;
-    height: 280px;
-    background-color: #fff; /* 背景色 */
-    border: 2px solid white; /* 枠線 */
-
-}
-
-.box3 {
-	position:relative;
-    left: 0px;
-    width: 305%;
-
-    float: left;    /*　左よせ */
-
-	top: -32px;
-
-    z-index: -1;
-
-    margin: 2em auto;
-    padding: 1em;
-    height: 280px;
-    background-color: #fff; /* 背景色 */
-    border: 2px solid white; /* 枠線 */
-}
-
-.box4 {
-	position:relative;
-    left: 0px;
-    width: 305%;
-
-    float: left;    /*　左よせ */
-
-	top: -32px;
-
-    z-index: -1;
-
-    margin: 2em auto;
-    padding: 1em;
-    height: 280px;
-    background-color: #fff; /* 背景色 */
-    border: 2px solid white; /* 枠線 */
-}
-
 .box5 {
 	position:relative;
-    left: 0px;
-    width: 35%;
+    left: 50px;
+    width: 28%;
 
     float: left;    /*　左よせ */
 
-	top: 480px;
+	top: 570px;
 
     z-index: -1;
 
@@ -101,14 +46,15 @@
     border: 2px solid white; /* 枠線 */
 }
 
+
 .box6 {
 	position:relative;
-    left: 0px;
-    width: 35%;
+    left: -5px;
+    width: 28%;
 
     float: left;    /*　左よせ */
 
-	top: 480px;
+	top: 570px;
 
     z-index: -1;
 
@@ -121,12 +67,12 @@
 
 .box7 {
     position:relative;
-    left: 0px;
+    left: -60px;
     width: 20%;
     
     float: left;    /*　左よせ */
     
-    top: 80px;
+    top: 170px;
     
     z-index: -1;
     
@@ -148,7 +94,7 @@
 }
 
 .wrapper2 {
-    height: 50%;
+    height: 55%;
     width: 100%;
     overflow-y: scroll;
 }
@@ -179,7 +125,7 @@
 }
 
 .fail_button {
-    width: 150px;
+    width: 135px;
 	height: 30px;
 	display: inline-block;
 	vertical-align: middle;
@@ -199,8 +145,26 @@
     -ms-transition-duration:0.3s;
 }
 
+.textarea {
+    width: 363%;
+    height: 320px;
+    border: 1px solid #cccccc;
+    border-radius:5px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.textbox {
+    width: 86%;
+    height: 30px;
+    border: 1px solid #cccccc;
+    border-radius:5px;
+    font-size: 18px;
+    text-align: left;
+}
+
 .searche{
-	width: 100%;
+	width: 119%;
 	height: 10%;
 	display: inline-block;
 	vertical-align: middle;
