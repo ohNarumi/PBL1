@@ -7,22 +7,35 @@
 <link rel="stylesheet" type="text/css" href="./css/index.css">
 </head>
 <body>
-    <div class="search">
-        <input type="search" name="search" placeholder="キーワードを入力" class="searches">
-        <input type="submit" name="submit" value="検索" class="searchs">
-        <div class="cp_ipselect cp_sl01">
-            <select required>
-            <option value="" hidden>並び替え</option>
-            <option value="1">最終更新日時（新しい順）</option>
-            <option value="2">最終更新日時（古い順）</option>
-            <option value="3">総合評価順</option>
-            <option value="4">回答数（多い順）</option>
-            <option value="5">回答数（少ない順）</option>
-            </select>
-        </div>
-        <input type="submit" name="submit" value="記事を投稿" class=" btn submit" >
-    </div>
-</div>
+<!--.oyaで全体のwidhtサイズを決める-->
+    <div class="oya">
+        <form action="" method="post">
+
+            <div class="ko1">
+                <div class="search_div">
+                    <input class="box_search" type="search" name="search" placeholder="キーワードを入力">
+                </div>
+
+                    <div class="btn_search_div">
+                        <button class="btn_search">検索</button>
+                    </div>
+
+                    <div class="cp_ipselect_div">
+                        <select class="cp_ipselect">
+                        <option hidden>並び替え</option>
+                        <option value="1">新着順</option>
+                        <option value="2">古い順</option>
+                        <option value="3">コメント数が多い順</option>
+                        <option value="4">コメント数が少ない順</option>
+                        <option value="5">閲覧数が多い順</option>
+                        <option value="6">閲覧数が少ない順</option>
+                        </select>
+                    </div>
+
+                    <div class="btn_div">
+                        <button class="btn">投稿</button>
+                    </div>
+                </div>
 <div class="Gap-top">
     <div class="narrow">
 
@@ -41,7 +54,16 @@
             <input type="checkbox" id="scales" name="IoT"><label for="IoT">IoT</label>
         </div>
     </div>
-        <h1>最新記事</h1>
+
+    <div class="ko3">
+        <ul class="example2">
+            <li class="this"><p class="position-senter">1</p></li>
+            <li><a href=""><p class="position-senter">2</p></a></li>
+            <li><a href=""><p class="position-senter">次へ</p></a></li>
+            </ul>
+    </div>
+
+    <h1>最新記事</h1>
     <div id="wrapper">
         <div id="content">
 		    <div id="content_main">
@@ -124,17 +146,13 @@
                         <p>ここには記事のテキストが入ります。ここには記事のテキストが入ります。ここには記事のテキストが入ります。ここには記事のテキストが入ります。</p>
                     </div>
                 </article>
-                    <ul id="pagination">
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>></li>
-                </ul>
-		    </div>
-
-            <div id="content_sub">
-
-		    </div>
+                <div class="ko3">
+                    <ul class="example2">
+                        <li class="this"><p class="position-senter">1</p></li>
+                        <li><a href=""><p class="position-senter">2</p></a></li>
+                        <li><a href=""><p class="position-senter">次へ</p></a></li>
+                        </ul>
+                </div>
         </div>
     </div>
 </body>
