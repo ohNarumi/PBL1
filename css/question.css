@@ -70,6 +70,19 @@
 	margin-left: 1rem;
 }
 
+/* good機能 */
+.message_icon {
+	width: 2%;
+	height: 2%;
+	margin-left: 1rem;
+	display: inline-block;
+}
+
+.message_icon_number {
+	display: inline-block;
+	margin-right: 0.1rem;
+}
+
 /*　ページネーション　*/
 #pagination {
 	text-align: center;
