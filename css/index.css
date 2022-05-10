@@ -163,6 +163,11 @@ body {
 .submission{
 	text-align:right;
 }
+.btn_div {
+	display: inline-block;
+	width:calc(100% - 660px);
+	text-align: right;
+}
 .btn{
 	width: 300px;
 	height: 50px;
@@ -182,4 +187,120 @@ body {
     -moz-transition-duration:0.3s;
     -o-transition-duration:0.3s;
     -ms-transition-duration:0.3s;
+}
+/* 絞り込み機能に関して */
+/* 「.Gap-top」から「#narrow_menu」まで */
+/* htmlファイルのクラスの設定の仕方は「question_index.css」を参考にする */
+.Gap-top {
+	padding-top: 20px;
+}
+.narrow {
+	display: inline-block;
+	width: 60%;
+	background-color: #ffffff;
+	border: 1px solid #414BB2;
+}
+.narrow_accordion {
+	text-align: left;
+}
+#narrow_menu {
+	display: inline-block;
+	margin: 2%;
+}
+.oya {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 80%;
+	margin: auto;
+}
+
+.ko1 {
+	display: flex;
+	padding-top: 10px;
+}
+
+.search_div {
+	display: inline-block;
+	width: 320px;
+}
+
+.box_search {
+	width: 93.7%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.btn_search_div {
+	display: inline-block;
+	width: 120px;
+	text-align: center;
+}
+
+.btn_search {
+	width: 83%;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.cp_ipselect_div{
+	display: inline-block;
+	width: 220px;
+	text-align: center;
+}
+
+.cp_ipselect {
+	width: 81%;
+	height: 50px;
+	position: relative;
+	border-radius: 2px;
+	border: 1px solid #414BB2;
+	background: #ffffff;
+	margin: 0px;
+	padding: 0px;
+}
+
+.btn_div {
+	display: inline-block;
+	width:calc(100% - 660px);
+	text-align: right;
+}
+
+.btn {
+	width: 40%;
+	min-width: 40px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.Gap-top {
+	padding-top: 20px;
+}
+
+.ko2 {
+	display: inline-block;
+	width: 100%;
+	background-color: #ffffff;
+	border: 1px solid #414BB2;
+}
+
+.accordion {
+	text-align: right;
+}
+
+#menu1 {
+	display: inline-block;
+	margin: 2%;
+}
+.ko3 {
+	width: 100%;
+	text-align: center;
+}
+
+.ko3 li{
+	display: inline-block;
+	width: 50px;
+	background-color: #ffffff;
+	border: 1px solid #414BB2;
 }

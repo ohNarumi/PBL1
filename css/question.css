@@ -22,12 +22,10 @@
 
 .question_box {
 	position:relative;
-
-  	z-index: -1;
-
-  	margin: 4em auto 2rem;
-  	padding: 1em;
-  	height: 460px;
+	z-index: -1;
+	margin: 4em auto 2rem;
+	padding: 1em;
+	height: 460px;
   	background-color: #fff; /* 背景色 */
   	border: 2px solid white; /* 枠線 */
 }

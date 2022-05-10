@@ -9,7 +9,6 @@
 </head>
 <body>
     <div class="home-content wrapper">
-        <!-- <h1>質問一覧画面</h1> -->
         <div class="content_top">
             <form action="question_index.html" method="get">
                 <input class="box_search" type="search" name="search" placeholder="キーワードを入力">
@@ -25,10 +24,26 @@
                     <option value="5">回答数（少ない順）</option>
                     </select>
                 </div>
-            <form action="./question_write.html">
-                <input type="submit" name="submit" value="質問を投稿" class="btn" >
-            </form>
-                <!-- <a class="a_search" href="./question_write.html">質問投稿</a> -->
+                <a href="./question_write.html" class="a_btn">質問を投稿</a>
+        </div>
+        <div class="Gap-top">
+            <div class="narrow">
+
+                <div class="narrow_accordion" onclick="obj=document.getElementById('narrow_menu').style; obj.display=(obj.display=='none')?'block':'none';">
+                    <a style="cursor:pointer;">▼絞り込み</a>
+                </div>
+
+                <div id="narrow_menu" style="display:none;clear:both;">
+                    <span>絞り込み：</span>
+                    <input type="checkbox" id="scales" name="C言語"><label for="C言語">C言語</label>
+                    <input type="checkbox" id="scales" name="Java"><label for="Java">Java</label>
+                    <input type="checkbox" id="scales" name="Python"><label for="Python">Python</label>
+                    <input type="checkbox" id="scales" name="PHP"><label for="PHP">PHP</label>
+                    <input type="checkbox" id="scales" name="HTML"><label for="HTML">HTML</label>
+                    <input type="checkbox" id="scales" name="CSS"><label for="CSS">CSS</label>
+                    <input type="checkbox" id="scales" name="IoT"><label for="IoT">IoT</label>
+                </div>
+            </div>
         </div>
         <div class="area">
             <input type="radio" name="tab_name" id="tab1" checked>
