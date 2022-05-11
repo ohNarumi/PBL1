@@ -36,6 +36,7 @@
                     </div>
 
                     <div class="btn_div">
+                        <!-- 記事投稿画面がないため、リンク先を設定しない -->
                         <button class="btn">投稿</button>
                     </div>
                 </div>
@@ -76,8 +77,9 @@
                     </figure>
 
                     <div class="article-info">
-                        <h1>ここにはタイトルが入ります。ここにはタイトルが入ります。ここにはタイトルが入ります。ここにはタイトルが入ります。ここにはタイトルが入ります。ここにはタイトルが入ります。</h1>
-
+                        <a href="http://localhost/PBL1/article.php" class="header-link">
+                            <h1>ここにはタイトルが入ります。ここにはタイトルが入ります。ここにはタイトルが入ります。ここにはタイトルが入ります。ここにはタイトルが入ります。ここにはタイトルが入ります。</h1>
+                        </a>
                         <section class="tag">
                             <ul>
                                 <li><a href="#"><span>タグ（頭に#をつける）</span></a></li>
@@ -95,8 +97,9 @@
                     </figure>
 
                     <div class="article-info">
-                        <h1>ここにはタイトルが入ります。ここにはタイトルが入ります。</h1>
-
+                        <a href="http://localhost/PBL1/article1.php" class="header-link">
+                            <h1>ここにはタイトルが入ります。ここにはタイトルが入ります。</h1>
+                        </a>
                         <section class="tag">
                             <ul>
                                 <li><a href="#"><span>タグ（頭に#をつける）</span></a></li>
@@ -115,8 +118,9 @@
                     </figure>
 
                     <div class="article-info">
-                        <h1>ここにはタイトルが入ります。ここにはタイトルが入ります。</h1>
-
+                        <a href="http://localhost/PBL1/article2.php" class="header-link">
+                            <h1>ここにはタイトルが入ります。ここにはタイトルが入ります。</h1>
+                        </a>
                         <section class="tag">
                             <ul>
                                 <li><a href="#"><span>タグ（頭に#をつける）</span></a></li>
@@ -135,6 +139,7 @@
                     </figure>
 
                     <div class="article-info">
+                        <!-- ４つ目の記事が必要のため、リンク先を設定していない -->
                         <h1>ここにはタイトルが入ります。ここにはタイトルが入ります。</h1>
 
                         <section class="tag">
@@ -151,6 +156,7 @@
                 </article>
                 <div class="ko3">
                     <ul class="example2">
+                        <!-- ２ページ目以降の画面がない -->
                         <li class="this"><p class="position-senter">1</p></li>
                         <li><a href=""><p class="position-senter">2</p></a></li>
                         <li><a href=""><p class="position-senter">次へ</p></a></li>
