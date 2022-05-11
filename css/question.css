@@ -39,29 +39,7 @@
     font-size: 2rem;
 	letter-spacing: 0.5pt;
 }
-<<<<<<< HEAD
 
-/*  続きを見るボタン */
-.next_button {
-	display: inline-block;
-	vertical-align: middle;
-	margin: 0 10px;
-	padding: 6px 25px;
-	letter-spacing: 0.5pt;
-	text-decoration: none;
-	cursor: pointer;
-	transition-duration:0.3s;
-    -webkit-transition-duration:0.3s;
-    -moz-transition-duration:0.3s;
-    -o-transition-duration:0.3s;
-    -ms-transition-duration:0.3s;
-
-    width: 150px;
-	height: 40px;
-	color: black;
-	background-color: white;
-	border: 1px solid white;
-=======
 .content_comment {
 	margin: 1rem;
     background-color: white;
@@ -69,7 +47,6 @@
     text-decoration: none;
     text-align: left;
 	border: solid 3px #414BB2;;
->>>>>>> 91341b81c0101a333fa542d913b3ed3eeadcc722
 }
 .comment_number {
 	margin-left: 1rem;
