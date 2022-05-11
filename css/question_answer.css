@@ -65,13 +65,13 @@
 .question_user_icon{
   position:absolute;
   left:60px;
-  top:15px;
+  top:-6.5px;
 }
 
 .question_user_icon_photo{
   position:absolute;
   left:65px;
-  top:20px;
+  top:-1.5px;
 }
 
 .question_photo{
