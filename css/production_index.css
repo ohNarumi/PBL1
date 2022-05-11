@@ -1,0 +1,181 @@
+.oya {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin: auto;
+}
+
+.ko1 {
+    display: flex;
+    padding-top: 10px;
+}
+
+.search_div {
+    display: inline-block;
+    width: 320px;
+}
+
+.box_search {
+    width: 93.7%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn_search_div {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+}
+
+.btn_search {
+    width: 83%;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.cp_ipselect_div{
+    display: inline-block;
+    width: 220px;
+    text-align: center;
+}
+
+.cp_ipselect {
+    width: 81%;
+    height: 50px;
+    position: relative;
+    border-radius: 2px;
+    border: 1px solid #414BB2;
+    background: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn_div {
+    display: inline-block;
+    width:calc(100% - 660px);
+    text-align: right;
+}
+
+.btn {
+    width: 40%;
+    min-width: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Gap-top {
+    padding-top: 20px;
+}
+
+.ko2 {
+    display: inline-block;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #414BB2;
+}
+
+.accordion {
+    text-align: right;
+}
+
+#menu1 {
+    display: inline-block;
+    margin: 2%;
+}
+
+.ko3 {
+    width: 100%;
+    text-align: center;
+}
+
+.ko3 li{
+    display: inline-block;
+    width: 50px;
+    background-color: #ffffff;
+    border: 1px solid #414BB2;
+}
+
+.production_page {
+    width: 100%;
+    height: 5vw;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+.image_td {
+    padding: 0px;
+    width: 30%;
+}
+
+.midasi_td {
+    padding: 0px;
+    width: 70%;
+}
+
+.image {
+    max-width: 100%;
+    height:  100%;
+    vertical-align: bottom;
+}
+
+.time_span {
+    position: relative;
+    left: 2%;
+    font-size: 1vw;
+}
+
+.icon {
+    position: relative;
+    top: 3%;
+    left: 9%;
+    max-width: 10%;
+    min-width: 40px;
+    border-radius: 100%;
+    background-color: #a91a1a;
+}
+
+.profile_span {
+    display: inline-block;
+    position: relative;
+    top: -10%;
+    left: 10%;
+    font-size: 1vw;
+}
+
+.production_div {
+    width: 50%;
+    margin-right: 10%;
+    margin-left: auto;
+}
+
+.production_span {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.message_icon {
+    display:  inline-block;
+    position: relative;
+    top: 5%;
+    left: 2%;
+    max-width: 3%;
+    min-width: 20px;
+}
+
+.span_inline {
+    display: inline-block;
+    position: relative;
+    left: 2%;
+    font-size: 1vw;
+}
+
+.tag {
+    position: relative;
+    top:-1%;
+    left: 5%;
+}
+

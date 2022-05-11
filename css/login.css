@@ -1,0 +1,69 @@
+.div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 40%;
+    margin: auto;
+}
+
+.title {
+    display: block;
+    padding-top: 5%;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.image {
+    display: block;
+    max-width: 20%;
+    min-width: 40px;
+    margin: auto;
+    padding-top: 3%;
+    border-radius: 100%;
+}
+
+.background_div {
+    position: absolute;
+    display: block;
+    margin: 5% auto;
+    padding: 5%;
+    text-align: center;
+    background-color: azure;
+}
+
+.span {
+    display: block;
+    padding-top: 5%;
+    text-align: center;
+    font-size: 2.6vw;
+}
+.background2_div {
+    margin: 5%;
+}
+
+.btn {
+    display: flex;
+    width: 100%;
+    height: 3vw;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1vw;
+    color: rgb(117, 117, 117);
+    background-color: rgb(255, 255, 255);
+}
+
+.googleicon_div {
+    position: relative;
+    display: inline-block;
+    width: 12%;
+    top: 5%;
+}
+
+.googleicon {
+    width: 2.5vw;
+}
+
+.textspan {
+    display: inline-block;
+    font-size: 2vw;
+}

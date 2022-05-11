@@ -72,6 +72,23 @@ body {
     color: #fff;
 }
 
+/* aタグ（ボタンデザイン） */
+.a_btn {
+    margin: 0 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background: #414BB2;;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.a_btn:hover {
+    background-color: #6b75da;
+    color: #fff;
+}
+
 /* タグ */
 .tag {
     display: inline-block;
@@ -159,4 +176,24 @@ body {
     padding: 8px 38px 8px 8px;
     color: #414BB2;
     font-weight: bold;
+}
+
+/* 絞り込み機能に関して */
+/* 「.Gap-top」から「#narrow_menu」まで */
+/* htmlファイルのクラスの設定の仕方は「question_index.css」を参考にする */
+.Gap-top {
+    padding-top: 20px;
+}
+.narrow {
+    display: inline-block;
+    width: 60%;
+    background-color: #ffffff;
+    border: 1px solid #414BB2;
+}
+.narrow_accordion {
+    text-align: left;
+}
+#narrow_menu {
+    display: inline-block;
+    margin: 2%;
 }
