@@ -4,6 +4,9 @@
  <meta charset="utf-8">
  <link rel="stylesheet" href="./css/style.css">
  <link rel="stylesheet" href="./css/production_index.css">
+ <?php
+    require_once("./header.php");
+ ?>
  <title>制作物一覧画面</title>
 </head>
     <body>
@@ -40,12 +43,12 @@
                 <div class="Gap-top">
                     <div class="ko2">
 
-                        <div class="accordion" onclick="obj=document.getElementById('menu1').style; obj.display=(obj.display=='none')?'block':'none';">
-                            <a style="cursor:pointer;">▼</a>
-                        </div>
+                    <div class="narrow_accordion" onclick="obj=document.getElementById('narrow_menu').   style; obj.display=(obj.display=='none')?'block':'none';">
+                    <a style="cursor:pointer;">▼絞り込み</a>
+                    </div>
 
                         <div id="menu1" style="display:none;clear:both;">
-                            
+
                             <span>絞り込み：</span>
                             <input type="checkbox" id="scales" name="C言語"><label for="C言語">C言語</label>
                             <input type="checkbox" id="scales" name="Java"><label for="Java">Java</label>
@@ -58,7 +61,7 @@
 
                     </div>
                 </div>
-                   
+
                 <div class="ko3">
                     <ul class="example2">
                         <li class="this"><p class="position-senter">1</p></li>
@@ -85,7 +88,7 @@
                             </td>
                         </tr>
                 </table><br>
-                
+
                 <table class="production_page">
                         <tr>
                             <td class="image_td">

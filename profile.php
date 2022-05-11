@@ -8,6 +8,9 @@
 <meta name="description" content="？？ ？？のプロフィールを詳しく紹介します！" />
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/profile.css">
+<?php
+    require_once("./header.php");
+?>
 </head>
 <body class="wrap">
 <div class="submission">

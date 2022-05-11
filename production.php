@@ -5,6 +5,9 @@
     <meta name="description" content=>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/production.css">
+    <?php
+    require_once("./header.php");
+    ?>
     <title>制作物詳細画面</title>
 </head>
 <body>
