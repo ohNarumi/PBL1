@@ -55,6 +55,7 @@
 
         <!-- ハッシュタグ -->
         <div class="question_tag">
+            <p class="priority_text">困っている度：<span class="priority_rank_text_yellow">中</span></p>
             <section class="tag">
                 <ul>
                     <li><a href="#"><span>タグ</span></a></li>
