@@ -86,7 +86,7 @@
             <a class="comment_text" href="">ソフトⅣ 神戸 次郎</a>
             <p class="comment_text">2022/04/22</p>
             <p class="comment_text">12：01</p>
-            <p class="comment_text2">いいと思います。</p>
+            <p class="comment_text2">○○は△△ですか？</p>
             <img class="message_icon" src="images/image_4.png">
             <p class="message_icon_number">7</p>
         </div>
@@ -97,7 +97,7 @@
             <p class="comment_text">2022/04/22</p>
             <p class="comment_text">12：01</p><br>
             <a class="comment_text2" href="">>>2</a>
-            <p class="comment_text2">それな</p>
+            <p class="comment_text2">□□だと思います。</p>
             <img class="message_icon" src="images/image_4.png">
             <p class="message_icon_number">7</p>
         </div>

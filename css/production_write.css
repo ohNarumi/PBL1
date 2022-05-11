@@ -1,0 +1,218 @@
+.p {
+    color: black;
+    font-size: 18px;
+}
+
+.p1 {
+    color: black;
+    font-size: 15px;
+}
+
+.p2 {
+    font-size: 10px;
+}
+
+.p3 {
+    font-size: 12px;
+}
+
+.box1 {
+	position:relative;
+	top: 85px;
+
+    z-index: -1;
+
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff; /* 背景色 */
+    border: 1px solid white; /* 枠線 */
+}
+
+.box5 {
+	position:relative;
+    left: 1.5%;
+    width: 29.5%;
+
+    float: left;    /*　左よせ */
+
+	top: 570px;
+
+    z-index: -1;
+
+    margin: 2em auto;
+    padding: 1em;
+    height: 100px;
+    background-color: #fff; /* 背景色 */
+    border: 2px solid white; /* 枠線 */
+}
+
+
+.box6 {
+	position:relative;
+    left: 4%;
+    width: 29.5%;
+
+    float: left;    /*　左よせ */
+
+	top: 570px;
+
+    z-index: -1;
+
+    margin: 2em auto;
+    padding: 1em;
+    height: 100px;
+    background-color: #fff; /* 背景色 */
+    border: 2px solid white; /* 枠線 */
+}
+
+.box7 {
+    position:relative;
+    right:1%;
+    width: 20%;
+    
+    float: right;    /*　左よせ */
+    
+    top: 170px;
+    
+    z-index: -1;
+    
+    margin: 2em auto;
+    padding: 1em;
+    height: 500px;
+    background-color: #fff; /* 背景色 */
+    border: 2px solid white; /* 枠線 */
+}
+
+.wrap{
+    display:flex;
+}
+
+.wrapper {
+    height: 200px;
+    width: 96%;
+    overflow-x: scroll;
+}
+
+.wrapper2 {
+    height: 55%;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.contents {
+    background-color: cadetblue;
+}
+
+.riset_button {
+    width: 100px;
+	height: 40px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 10px;
+	padding: 6px 25px;
+	color: red;
+	font-weight: bold;
+	letter-spacing: 0.5pt;
+	text-decoration: none;
+	background-color: white;
+	border: 1px solid red;
+	cursor: pointer;
+	transition-duration:0.3s;
+    -webkit-transition-duration:0.3s;
+    -moz-transition-duration:0.3s;
+    -o-transition-duration:0.3s;
+    -ms-transition-duration:0.3s;
+}
+
+.fail_button {
+    width: 135px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 10px;
+	padding: 6px 25px;
+	color: blue;
+	font-weight: bold;
+	letter-spacing: 0.5pt;
+	text-decoration: none;
+	background-color: white;
+	border: 1px solid blue;
+	cursor: pointer;
+	transition-duration:0.3s;
+    -webkit-transition-duration:0.3s;
+    -moz-transition-duration:0.3s;
+    -o-transition-duration:0.3s;
+    -ms-transition-duration:0.3s;
+}
+
+.textarea {
+    width: 100%;
+    height: 320px;
+    border: 1px solid #cccccc;
+    border-radius:5px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.textbox {
+    width: 96%;
+    height: 30px;
+    border: 1px solid #cccccc;
+    border-radius:5px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.searche{
+	width: 99%;
+	height: 10%;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 10px;
+	padding: 6px 25px;
+	color: #4169e1;
+	font-weight: bold;
+	letter-spacing: 0.5pt;
+	text-decoration: none;
+	background-color: #ffffff;
+	border: 1px solid #4169e1;
+}
+
+.tab-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tab-label {
+    color: White;
+    background: LightGray;
+    margin-right: 100px;
+    padding: 3px 12px;
+    order: -1;
+}
+
+.tab-content {
+    width: 100%;
+    display: none;
+}
+/* アクティブなタブ */
+.tab-switch:checked+.tab-label {
+    background: DeepSkyBlue;
+}
+.tab-switch:checked+.tab-label+.tab-content {
+     display: block;
+}
+/* ラジオボタン非表示 */
+.tab-switch {
+    display: none;
+}
+
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-item {
+    flex: 2; /* これが重要！ */
+}
