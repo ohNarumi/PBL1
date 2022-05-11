@@ -5,6 +5,9 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/question_answer.css">
     <link rel="stylesheet" href="./css/question.css">
+    <?php
+    require_once("./header.php");
+    ?>
     <title>質問詳細画面</title>
 </head>
 <body>

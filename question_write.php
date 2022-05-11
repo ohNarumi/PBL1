@@ -4,13 +4,16 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/question_write.css">
+  <?php
+    require_once("./header.php");
+  ?>
   <title>質問フォーム</title>
 </head>
   <body>
     <form action="" method="post">
 
     <p>質問投稿</p>
-   
+
     <span class="title-span">質問タイトル</span>
 
     <div>

@@ -6,6 +6,9 @@
   <meta name="description" content=>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/article.css">
+  <?php
+    require_once("./header.php");
+  ?>
   <title>記事詳細画面-1</title>
 </head>
 
