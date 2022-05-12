@@ -64,7 +64,7 @@
       この記事に対するコメント
     </p>
   </div>
-  <div class="contents">
+  <div class="star-contents">
     <p>
       <i>閲覧数:128件 評価:4.5</i><span class="star5_rating" data-rate="4.5"></span>
     </p>
