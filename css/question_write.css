@@ -1,69 +1,170 @@
-p {
-    font-size: 40px;
-    text-align: center;
+.oya {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 90%;
+  min-width: 500px;
+  margin: auto;
 }
 
-div {
-    width: 100%;
-    text-align: center;
-    margin: auto;
-  }
-
-.title-span {
-  display: block;
-  font-size: 25px;
-  text-align: center;
+.ko_div {
+  display: flex;
 }
 
-.textbox {
-  width: 20%;
-  height: 35px;
-  margin-left: 6%;
-  font-size: 30px;
-  border: 1px solid #414BB2;
+.ko1{
+  width: 70%;
 }
 
-.select {
+.ko2{
+  width: 30%;
+  background-color: rgb(255, 255, 255);
+}
+
+.div_1 {
+  display: flex;
+  width: 100%;
+}
+
+.resetbtn_div {
   display: inline-block;
   width: 100%;
-  max-width: 80px;
-  height: 40px;
-  margin: 0px 10px;
-  padding: 0px 5px;
-  font-size: 15px;
-  line-height: 1.75;
-  -ms-word-break: normal;
-  word-break: normal;
-  vertical-align: top;
+}
+
+.a_btn {
+  margin: 0;
+  padding: 5px;
+  color: #fc2929;
+  border: 1px solid #fc2929;
+  background-color: #ffffff;
+}
+
+.btn_div {
+  width: 100%;
+  text-align: right;
+}
+
+.btn {
+  width: 25%;
+  height: auto;
+  min-width: 100px;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+.character_div {
+  display: flex;
+  width: 70%;
+  margin-top: 3%;
+  margin-bottom: 1%;
+}
+
+.title_div {
+  width: 70%;
+}
+
+.trauble_div {
+  width: 30%;
+}
+
+.character_div span {
+  font-size:max(1.5vw, 15px);
+}
+
+.div_2 {
+  display: flex;
+}
+
+.title_span{
+  width: 70%;
+}
+
+.title {
+  display: block;
+  font-size: 2vw;
+}
+
+.titletext {
+  width: 90%;
+  height: 30px;
+  box-sizing:border-box;
+  font-size: 1vw;
+}
+
+.trauble_span {
+  width: 30%;
+}
+
+.trauble {
+  display: block;
+  font-size: 2vw;
+}
+
+.cp_ipselect {
+  width: 60%;
+  min-width: 90px;
+  height: 30px;
+  box-sizing:border-box;
+  border-radius: 2px;
   border: 1px solid #414BB2;
   background: #ffffff;
+  margin: 0px;
+  padding: 0px;
 }
 
-.text {
-  display: block;
-  padding-top: 3%;
-  font-size: 25px;
-  text-align: center;
-}
-
-.textboxname {
-  width: 13%;
-  height: 35px;
-  font-size: 30px;
-  text-align: center;
-  border: 1px solid #414BB2;
-}
-
-.comment {
-  display: inline;
-  width: 60%;
-  height: 250px;
-  font-size: 25px;
-  border: 1px solid #414BB2;
-}
-
-.button {
+.div_3 {
   width: 100%;
-  max-width: 150px;
-  height: 50px;
+}
+
+.message {
+  display: block;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 30px;
+}
+
+.messagetext {
+  width: 87%;
+  min-width: 330px;
+  height: 20vw;
+  font-size: 1.3vw;
+}
+
+.tag_text_div {
+  width: 100%;
+  margin-top: 3%;
+}
+
+.tag_text {
+  margin: 5%;
+}
+
+.search_div {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.box_search {
+  width: 90%;
+  height: 30px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.checkbox {
+  display: block;
+  height: 250px;
+  margin: 5%;
+  overflow: auto;
+}
+
+.checkbox_div {
+  display: block;
+  margin-bottom: 5%;
+}
+
+.selection {
+  margin-left: 5%;
 }
