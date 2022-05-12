@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .wrap {
+      padding: 0px 0 64px;
+  }
+
+  .content {
+    display: flex;
+      width: 70%;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 16px;
+      background-color: #DFF4FF;
+  }
+
+  .content_sub{
+    width: 70%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: #DFF4FF;
+  }
+
+  .heading-lv1 {
+      width: 280px;
+      font-size: 32px;
+      padding-top: 40px;
+      margin: 20px;
+  }
+
+  .heading-lv2 {
+      font-size: 24px;
+  }
+
+  .heading-lv3 {
+      font-size: 20px;
+  }
+
+  .heading-margin {
+      margin-top: 32px;
+      margin-left: 32px;
+  }
+
+  .text-center {
+      text-align: center;
+  }
+
+  .profile-image {
+      text-align: left;
+  }
+
+  a {
+      color: #3F82A8;
+  }
+
+  a:hover {
+      text-decoration: none;
+  }
+
+  .submission{
+      text-align:right;
+  }
+
+  .home-content {
+    text-align: center;
+    margin-top: 1%;
+  }
+
+  .content_top {
+    display: flex;
+    justify-content: center;
+  }
+
+  .area {
+    width: 1000px;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+
+  .content_class {
+    width: 100%;
+  }
+
+
+  .question {
+    background-color: white;
+    color: #333;
+    text-decoration: none;
+    text-align: left;
+    margin: 10px;
+  }
+
+  .maru2 {
+      display: inline-block;
+      width: 150px;
+      height: 150px;
+      background: lightgrey;
+      -moz-border-radius: 50px;
+      -webkit-border-radius: 50px;
+      -o-border-radius: 50px;
+      -ms-border-radius: 50px;
+      border-radius: 125px;
+  }
+  .form-textarea {
+    width: 96%;
+    padding: 10px;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.search_div {
+	display: inline-block;
+	width: 320px;
+}
+
+.search_div_sub {
+	display: inline-block;
+	width: 80%;
+}
+
+.box_search {
+	width: 100%;
+	margin: 20px;
+	padding: 20px;
+}
+
+.narrow {
+	display: inline-block;
+	width: 95%;
+	background-color: #ffffff;
+	border: 1px solid #414BB2;
+}
