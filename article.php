@@ -70,24 +70,24 @@
     </p>
   </div>
   <!-- 回答（投稿者情報） -->
-  <div name="kaitou1_Toukousya_data" style="position:absolute; top:600px; left:55px;">
+  <div name="kaitou1_Toukousya_data" style="position:absolute; top:730px; left:55px;">
     <p>ソフトⅢコース　神戸　電娘　 投稿日:2022/4/15 23:59</p>
   </div>
 
 
   <!-- 回答（投稿者のアイコン） -->
-  <div name="kaitou1_Toukousya_aikon" style="position:absolute; top:613px; left:20px;">
+  <div name="kaitou1_Toukousya_aikon" style="position:absolute; top:728px; left:20px;">
     <maru2>
   </div>
 
-  <div name="kaitou1_Toukousya_photo" style="position:absolute; top:618px; left:25px;">
+  <div name="kaitou1_Toukousya_photo" style="position:absolute; top:733px; left:25px;">
     <img src="./images/user_icon_2.png" width="20" height="20">
   </div>
 
 
   <!-- 回答（投稿者のコメント） -->
   <div class="box2">
-    <div name="kaitou1_data" style="position:absolute; top:p50x; left:60px;">
+    <div name="kaitou1_data" style="position:absolute; top:50px; left:60px;">
       <p>
         1. 神戸電子専門学校のIT分野でmacbook使ってる人少ない気がするんですが。。。それだけmacbookにするメリットが少ないんでしょうか？気になる。。。
       </p>
@@ -100,25 +100,25 @@
     </div>
   </div>
   <!-- 回答2（投稿者情報） -->
-  <div name="kaitou2_Toukousya_data" style="position:absolute; top:785px; left:55px;">
+  <div name="kaitou2_Toukousya_data" style="position:absolute; top:915px; left:55px;">
     <p>ソフトⅣコース　神戸　電太郎　 投稿日:2022/4/16 00:01</p>
   </div>
 
 
   <!-- 回答2（投稿者のアイコン） -->
-  <div name="kaitou2_Toukousya_aikon" style="position:absolute; top:803px; left:20px;">
+  <div name="kaitou2_Toukousya_aikon" style="position:absolute; top:913px; left:20px;">
     <maru3>
   </div>
 
 
-  <div name="kaitou2_Toukousya_photo" style="position:absolute; top:805px; left:25px;">
+  <div name="kaitou2_Toukousya_photo" style="position:absolute; top:918px; left:25px;">
     <img src="./images/user_icon_3.png" width="20" height="20">
   </div>
 
 
   <!-- 回答2（投稿者のコメント） -->
   <div class="box3">
-    <div name="kaitou2_data" style="position:absolute; top:15px; left:60px;">
+    <div name="kaitou2_data" style="position:absolute; top:40px; left:60px;">
       <p>2. <a href=""> >>1</a> 神戸　電娘 さんコメントありがとうございます！！！　確かに神戸電子専門学校でmacbook使用してる方は少ないですよね。。。</p>
       <p>購入を希望されているとのことですが、同然のことながら予算によって性能に差があります。ですがm1 macbookはすごくコスパの良いものととなっていますので是非ご検討ください。</p>
       <p>不便な点に関しましては今度別の記事にまとめる予定ですのでそちらをご覧頂ければ幸いです（笑）</p>
@@ -126,25 +126,25 @@
   </div>
 
   <!-- 回答3（投稿者情報） -->
-  <div name="kaitou3_Toukousya_data" style="position:absolute; top:975px; left:55px;">
+  <div name="kaitou3_Toukousya_data" style="position:absolute; top:1104px; left:55px;">
     <p>ソフトⅠコース　神戸　電次　 投稿日:2022/4/16 08:51</p>
   </div>
 
 
   <!-- 回答3（投稿者のアイコン） -->
-  <div name="Tkaitou2_Toukousya_aikon" style="position:absolute; top:990px; left:20px;">
+  <div name="Tkaitou2_Toukousya_aikon" style="position:absolute; top:1103px; left:20px;">
     <maru4>
   </div>
 
 
-  <div name="kaitou2_Toukousya_photo" style="position:absolute; top:995px; left:25px;">
+  <div name="kaitou2_Toukousya_photo" style="position:absolute; top:1108px; left:25px;">
     <img src="./images/user_icon_4.jpg" width="20" height="20">
   </div>
 
 
   <!-- 回答3（投稿者のコメント） -->
   <div class="box4">
-    <div name="kaitou3_data" style="position:absolute; top:20px; left:60px;">
+    <div name="kaitou3_data" style="position:absolute; top:40px; left:60px;">
       <p>3. おはようございます！今年神戸電子専門学校に入学したものです。</p>
       <p>良いですね、macbook! アルバイトなどをしてお金が貯まったら購入してみたいです。良いバイト探さなきゃないけないなぁ。</p>
       <p>先輩方に質問なのですが、入学した際に購入したパソコンを使い続けている方はどのくらいいらしゃるのでしょうか？</p>
