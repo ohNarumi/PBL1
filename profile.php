@@ -14,7 +14,8 @@
 </head>
 <body class="wrap">
 <div class="submission">
-  <input type="submit" name="submit" value="編集" class="btn submit" >
+    <!-- プロフィール編集画面がないためリンク先を設定しない -->
+    <input type="submit" name="submit" value="編集" class="btn submit" >
 </div>
 <div class="content">
 <h1 class="heading-lv1 text-center">User</h1>
