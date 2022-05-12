@@ -5,6 +5,9 @@
 <title>記事一覧画面</title>
 <link rel="stylesheet" href="./css/style.css">
 <link rel="stylesheet" type="text/css" href="./css/index.css">
+<?php
+    require_once("./header.php");
+?>
 </head>
 <body>
 <!--.oyaで全体のwidhtサイズを決める-->

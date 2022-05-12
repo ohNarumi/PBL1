@@ -6,6 +6,9 @@
   <meta name="description" content=>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/article.css">
+  <?php
+    require_once("./header.php");
+  ?>
   <title>記事詳細画面-1</title>
 </head>
 
@@ -61,7 +64,7 @@
       この記事に対するコメント
     </p>
   </div>
-  <div class="contents">
+  <div class="star-contents">
     <p>
       <i>閲覧数:48件 評価:2.5</i><span class="star5_rating" data-rate="2.5"></span>
     </p>

@@ -5,6 +5,9 @@
     <meta name="description" content=>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/question_index.css">
+    <?php
+        require_once("./header.php");
+    ?>
     <title>質問一覧画面</title>
 </head>
 <body>
