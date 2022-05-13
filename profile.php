@@ -90,7 +90,7 @@
                 <p class="text">ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。
                 ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。
                 </p>
-            <img class="message_icon" src="images/image_4.png">
+            <img class="message_icon" src="images/good.png">
             <p class="message_icon_number">7</p>
         </div>
         <div class="question">
@@ -107,7 +107,7 @@
             <p class="text">ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。
                 ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。ここには回答内容が入ります。
             </p>
-            <img class="message_icon" src="images/image_4.png">
+            <img class="message_icon" src="images/good.png">
             <p class="message_icon_number">20</p>
         </div>
     </div>
