@@ -14,12 +14,12 @@
   <!-- タイトル -->
   <div class="question_header">
     <div class="question_title">
-      <h1 class="underbar">ここには質問のタイトルが入ります。</h1>
+      <h1 class="title">Rubyのif文がループしない</h1>
     </div>
 
     <!-- 投稿日 -->
     <div class="question_date">
-      <h4 class="underbar">投稿日：2018/12/25 23:48</h4>
+      <h4 class="underbar">投稿日：2022/05/13 09:59</h4>
     </div>
 
     <!-- 質問投稿者 -->
@@ -32,7 +32,7 @@
         <img src="./images/user_icon_1.png" width="18" height="18">
       </div>
 
-      <h4 class="underbar">投稿者：　　冨安健洋</h4>
+      <h4 class="underbar">投稿者：　　ソフトⅣ 神戸 太郎</h4>
     </div>
   </div>
 
@@ -41,26 +41,21 @@
   <div class="question_box" >
     <!-- 質問の添付写真 -->
     <div class="question_photo">
-      <img src="./images/image_3.jpg" width="768" height="432">
+      <img src="./images/question_image_1.png" height="432">
     </div>
     <div class="question_data">
-      <p>ここには質問内容が入ります。ここには質問内容が入ります。ここには質問内容が入ります。
-          ここには質問内容が入ります。ここには質問内容が入ります。ここには質問内容が入ります。
-          ここには質問内容が入ります。ここには質問内容が入ります。ここには質問内容が入ります。
-          ここには質問内容が入ります。ここには質問内容が入ります。ここには質問内容が入ります。
-          ここには質問内容が入ります。ここには質問内容が入ります。ここには質問内容が入ります。</p>
+    <p>if文を用いて条件分岐を指定したのですが、初めに「1か2以外の数字を指定」した後に「1」あるいは「2」を入力しても、それぞれの条件分岐に進まずに処理自体が終了してしまいます。
+      「1」または「2」以外の数字を入力した後、どちらかの数字を正しく入力できたとき、それぞれの条件分岐の機能に入るようにするにはどうしたらいいでしょうか。</p>
     </div>
 
     <!-- ハッシュタグ -->
     <div class="question_tag">
+      <p class="priority_text">困っている度：<span class="priority_rank_text_yellow">中</span></p>
       <section class="tag">
           <ul>
-              <li><a href="#"><span>タグ</span></a></li>
-              <li><a href="#"><span>タグ</span></a></li>
-              <li><a href="#"><span>タグ</span></a></li>
-              <li><a href="#"><span>タグ</span></a></li>
-              <li><a href="#"><span>タグ</span></a></li>
-              <li><a href="#"><span>タグ</span></a></li>
+            <li><a href="#"><span>Ruby</span></a></li>
+            <li><a href="#"><span>csv</span></a></li>
+            <li><a href="#"><span>if文</span></a></li>
           </ul>
       </section>
     </div>
