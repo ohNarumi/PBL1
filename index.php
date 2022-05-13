@@ -36,6 +36,7 @@
                     </div>
 
                     <div class="btn_div">
+                        <!-- 記事投稿画面がないため、リンク先を設定しない -->
                         <button class="btn">投稿</button>
                     </div>
                 </div>
@@ -78,7 +79,7 @@
 
                     <div class="article-info">
                         <h1>macbook Air と macbook Pro の違い</h1>
-
+                        <a href="http://localhost/PBL1/article.php" class="header-link">
                         <section class="tag">
                             <ul>
                                 <li><a href="#"><span>Mac</span></a></li>
@@ -98,7 +99,7 @@
 
                     <div class="article-info">
                         <h1>一週間で身につくのC言語基礎入門編</h1>
-
+                        <a href="http://localhost/PBL1/article1.php" class="header-link">
                         <section class="tag">
                             <ul>
                                 <li><a href="#"><span>C言語</span></a></li>
@@ -119,7 +120,7 @@
 
                     <div class="article-info">
                         <h1>Linuxで使える便利なコマンド一覧</h1>
-
+                        <a href="http://localhost/PBL1/article2.php" class="header-link">
                         <section class="tag">
                             <ul>
                                 <li><a href="#"><span>Linux</span></a></li>
@@ -296,6 +297,7 @@
 
                 <div class="ko3">
                     <ul class="example2">
+                        <!-- ２ページ目以降の画面がない -->
                         <li class="this"><p class="position-senter">1</p></li>
                         <li><a href=""><p class="position-senter">2</p></a></li>
                         <li><a href=""><p class="position-senter">次へ</p></a></li>
