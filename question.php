@@ -14,12 +14,12 @@
     <!-- タイトル -->
     <div class="question_header">
         <div class="question_title">
-            <h1 class="underbar">ここには質問のタイトルが入ります。</h1>
+            <h1 class="underbar">Rubyのif文がループしない</h1>
         </div>
 
         <!-- 投稿日 -->
         <div class="question_date">
-            <h4 class="underbar">投稿日：2018/12/25 23:48</h4>
+            <h4 class="underbar">投稿日：2022/05/13 09:59</h4>
         </div>
 
         <!-- 質問投稿者 -->
@@ -32,10 +32,10 @@
                 <img src="./images/user_icon_1.png" width="18" height="18">
             </div>
 
-            <h4 class="underbar">投稿者：　　冨安健洋</h4>
+            <h4 class="underbar">投稿者：　　神戸太郎</h4>
         </div>
         <div class="question_answer_btn">
-            <a href="./question_answer.html" class="a_btn">回答する</a>
+            <a href="./question_answer.php" class="a_btn">回答する</a>
         </div>
     </div>
 
@@ -46,11 +46,7 @@
             <img src="./images/image_3.jpg" width="768" height="432">
         </div>
         <div class="question_data">
-            <p>ここには質問内容が入ります。ここには質問内容が入ります。ここには質問内容が入ります。
-                ここには質問内容が入ります。ここには質問内容が入ります。ここには質問内容が入ります。
-                ここには質問内容が入ります。ここには質問内容が入ります。ここには質問内容が入ります。
-                ここには質問内容が入ります。ここには質問内容が入ります。ここには質問内容が入ります。
-                ここには質問内容が入ります。ここには質問内容が入ります。ここには質問内容が入ります。</p>
+            <p>aaaaaaaaa</p>
         </div>
 
         <!-- ハッシュタグ -->
@@ -78,7 +74,7 @@
             <p class="comment_text">2022/04/22</p>
             <p class="comment_text">12：00</p>
             <p class="comment_text2">質問本文</p>
-            <img class="message_icon" src="images/image_4.png">
+            <img class="message_icon" src="images/good.png">
             <p class="message_icon_number">7</p>
         </div>
         <div class="content_comment">
@@ -88,25 +84,22 @@
             <p class="comment_text">2022/04/22</p>
             <p class="comment_text">12：01</p>
             <p class="comment_text2">○○は△△ですか？</p>
-            <img class="message_icon" src="images/image_4.png">
+            <img class="message_icon" src="images/good.png">
             <p class="message_icon_number">7</p>
         </div>
         <div class="content_comment">
             <p class="comment_number">3.</p>
-            <img class="comment_icon" src="./images/user_icon_maru_1.png">
+            <img class="comment_icon" src="./images/good.png">
             <a class="comment_text" href="">ソフトⅣ 神戸 三郎</a>
             <p class="comment_text">2022/04/22</p>
             <p class="comment_text">12：01</p><br>
             <a class="comment_text2" href="">>>2</a>
             <p class="comment_text2">□□だと思います。</p>
-            <img class="message_icon" src="images/image_4.png">
+            <img class="message_icon" src="images/good.png">
             <p class="message_icon_number">7</p>
         </div>
         <ul id="pagination">
             <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>></li>
         </ul>
     </div>
 </body>
