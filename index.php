@@ -70,85 +70,230 @@
     <div id="wrapper">
         <div id="content">
 		    <div id="content_main">
+                <!-- 記事１ -->
                 <article class="article">
                     <figure>
                         <img src="images/image_1.jpg">
                     </figure>
 
                     <div class="article-info">
-                        <h1>ここにはタイトルが入ります。ここにはタイトルが入ります。ここにはタイトルが入ります。ここにはタイトルが入ります。ここにはタイトルが入ります。ここにはタイトルが入ります。</h1>
+                        <h1>macbook Air と macbook Pro の違い</h1>
 
                         <section class="tag">
                             <ul>
-                                <li><a href="#"><span>タグ（頭に#をつける）</span></a></li>
-                                <li><a href="#"><span>タグ</span></a></li>
+                                <li><a href="#"><span>Mac</span></a></li>
+                                <li><a href="#"><span>プログラマー</span></a></li>
                             </ul>
                         </section>
                         <time class="article-date">2022年4月16日</time>
 
-                        <p>ここには記事のテキストが入ります。ここには記事のテキストが入ります。ここには記事のテキストが入ります。ここには記事のテキストが入ります。ここには記事のテキストが入ります。ここには記事のテキストが入ります。</p>
+                        <p>普段Windowsを使っている方でmacbook Air と macbook Pro の違いについて理解をしている方が少ないと感じたのでこの記事を書きました。興味が湧けば是非こちら側（Mac）にお越しください。</p>
                     </div>
                 </article>
+                <!-- 記事２ -->
                 <article class="article">
                     <figure>
-                        <img src="images/image_2.png">
+                        <img src="images/article_index_c.png">
                     </figure>
 
                     <div class="article-info">
-                        <h1>ここにはタイトルが入ります。ここにはタイトルが入ります。</h1>
+                        <h1>一週間で身につくのC言語基礎入門編</h1>
 
                         <section class="tag">
                             <ul>
-                                <li><a href="#"><span>タグ（頭に#をつける）</span></a></li>
-                                <li><a href="#"><span>タグ</span></a></li>
+                                <li><a href="#"><span>C言語</span></a></li>
+                                <li><a href="#"><span>初学者</span></a></li>
                             </ul>
                         </section>
 
                         <time class="article-date">2022年4月15日</time>
 
-                        <p>ここには記事のテキストが入ります。ここには記事のテキストが入ります。ここには記事のテキストが入ります。ここには記事のテキストが入ります。</p>
+                        <p>これからプログラミングを学ぶ初心者に、C言語を1週間で身につけてもらうための内容です。内容は次のようになっています。その1,プログラミングとは何か。C言語とは何かを解説します。</p>
                     </div>
                 </article>
+                <!-- 記事3 -->
                 <article class="article">
                     <figure>
-                        <img src="images/image_1.jpg">
+                        <img src="images/article_index_linux-tux.png">
                     </figure>
 
                     <div class="article-info">
-                        <h1>ここにはタイトルが入ります。ここにはタイトルが入ります。</h1>
+                        <h1>Linuxで使える便利なコマンド一覧</h1>
 
                         <section class="tag">
                             <ul>
-                                <li><a href="#"><span>タグ（頭に#をつける）</span></a></li>
-                                <li><a href="#"><span>タグ</span></a></li>
+                                <li><a href="#"><span>Linux</span></a></li>
+                                <li><a href="#"><span>サーバー</span></a></li>
                             </ul>
                         </section>
 
                         <time class="article-date">2022年4月14日</time>
 
-                        <p>ここには記事のテキストが入ります。ここには記事のテキストが入ります。ここには記事のテキストが入ります。ここには記事のテキストが入ります。</p>
+                        <p>Linuxのコマンドに初めて触れた際、覚えること多すぎて頭おかしなるわ!!!となってしまった方も多いと思います。ですが、実際によく使うコマンドはそこまで多くありません。</p>
                     </div>
                 </article>
+                <!-- 記事４ -->
                 <article class="article">
                     <figure>
-                        <img src="images/image_3.jpg">
+                        <img src="images/article_index_vue.png">
                     </figure>
 
                     <div class="article-info">
-                        <h1>ここにはタイトルが入ります。ここにはタイトルが入ります。</h1>
+                        <h1>Vue.jsとは何なのか5分で解説してみた</h1>
 
                         <section class="tag">
                             <ul>
-                                <li><a href="#"><span>タグ（頭に#をつける）</span></a></li>
-                                <li><a href="#"><span>タグ</span></a></li>
+                                <li><a href="#"><span>JavaScript</span></a></li>
+                                <li><a href="#"><span>フレームワーク</span></a></li>
+                            </ul>
+                        </section>
+                        <time class="article-date">2022年4月13日</time>
+
+                        <p>Vue.jsはユーザーインターフェイスを構築するためのJavaScriptフレームワークです。開発で必要な機能がセットになったツールだと認識して貰えば良いと思います。</p>
+                    </div>
+                </article>
+                <!-- 記事５ -->
+                <article class="article">
+                    <figure>
+                        <img src="images/article_index_java.png">
+                    </figure>
+
+                    <div class="article-info">
+                        <h1>Javaが難しいとされている理由</h1>
+
+                        <section class="tag">
+                            <ul>
+                                <li><a href="#"><span>Java</span></a></li>
+                                <li><a href="#"><span>プログラミング</span></a></li>
+                            </ul>
+                        </section>
+                        <time class="article-date">2022年4月12日</time>
+
+                        <p>Javaは他の言語と比べるとルールや記述が多く、やや難解な印象を与えてしまいますが、実はそうではありません。市場価値が少なくないJavaの習得方法を記述していきたいと思います。</p>
+                    </div>
+                </article>
+                <!-- 記事６ -->
+                <article class="article">
+                    <figure>
+                        <img src="images/article_index_git.png">
+                    </figure>
+
+                    <div class="article-info">
+                        <h1>Gitを用いたチーム開発講座</h1>
+
+                        <section class="tag">
+                            <ul>
+                                <li><a href="#"><span>Git</span></a></li>
+                                <li><a href="#"><span>チーム開発</span></a></li>
+                            </ul>
+                        </section>
+                        <time class="article-date">2022年4月11日</time>
+
+                        <p>神戸電子専門学校IT分野でチーム開発が課題として少なくないので、今までGitを使ったことのない人にもわかりやすいように解説していきたいと思います。</p>
+                    </div>
+                </article>
+
+                <article class="article">
+                    <figure>
+                        <img src="images/article_index_python.png">
+                    </figure>
+
+                    <div class="article-info">
+                        <h1>Pythonで簡単なAIを作る方法</h1>
+
+                        <section class="tag">
+                            <ul>
+                                <li><a href="#"><span>Python</span></a></li>
+                                <li><a href="#"><span>AI（人工知能）</span></a></li>
+                            </ul>
+                        </section>
+                        <time class="article-date">2022年4月10日</time>
+
+                        <p>Pythonといえば機械学習というイメージを持つ人も少なくないのではないではないでしょうか。今回は誰でも簡単に機械学習を用いたAIを作っていきたいと思います。</p>
+                    </div>
+                </article>
+                <!-- 記事７ -->
+                <article class="article">
+                    <figure>
+                        <img src="images/article_index_c.png">
+                    </figure>
+
+                    <div class="article-info">
+                        <h1>C言語で個人的に一番難しいポインタについて解説する</h1>
+
+                        <section class="tag">
+                            <ul>
+                                <li><a href="#"><span>C言語</span></a></li>
+                                <li><a href="#"><span>プログラミング</span></a></li>
+                            </ul>
+                        </section>
+                        <time class="article-date">2022年4月10日</time>
+
+                        <p>ポインタはC言語を学習する上で手が止まる分野です。ポインタについて理解するにはコンピュータの内部処理について理解することが重要です。</p>
+                    </div>
+                </article>
+                <!-- 記事８ -->
+                <article class="article">
+                    <figure>
+                        <img src="images/article_index_ruby.png">
+                    </figure>
+
+                    <div class="article-info">
+                        <h1>Rubyがよくわかるようになる方法</h1>
+
+                        <section class="tag">
+                            <ul>
+                                <li><a href="#"><span>Ruby</span></a></li>
+                                <li><a href="#"><span>Web開発</span></a></li>
+                            </ul>
+                        </section>
+                        <time class="article-date">2022年4月9日</time>
+
+                        <p>日本人のまつもとひろゆき氏によって生み出されたこの言語は純国産プログラミング言語として初めて国際電気標準会議で国際規格に認定されました。Rubyの大きな特徴はパッケージの豊富さです。</p>
+                    </div>
+                </article>
+                <!-- 記事９ -->
+                <article class="article">
+                    <figure>
+                        <img src="images/article_index_xampp.png">
+                    </figure>
+
+                    <div class="article-info">
+                        <h1>xamppの使い方とその設定方法</h1>
+
+                        <section class="tag">
+                            <ul>
+                                <li><a href="#"><span>PHP</span></a></li>
+                                <li><a href="#"><span>プログラミング</span></a></li>
+                            </ul>
+                        </section>
+                        <time class="article-date">2022年4月9日</time>
+
+                        <p>xampp（ザンプ）は、アプリケーション開発に欠かせないソフトウェアやツールをまとめてインストールすることができるパッケージのことです。xamppの基礎から丁寧に解説していきます。</p>
+                    </div>
+                </article>
+                <!-- 記事１０ -->
+                <article class="article">
+                    <figure>
+                        <img src="images/article_index_c.png">
+                    </figure>
+
+                    <div class="article-info">
+                        <h1>C言語が挫折しやすいと言われている原因</h1>
+
+                        <section class="tag">
+                            <ul>
+                                <li><a href="#"><span>C言語</span></a></li>
+                                <li><a href="#"><span>プログラミング</span></a></li>
                             </ul>
                         </section>
 
-                        <time class="article-date">2022年4月14日</time>
+                        <time class="article-date">2022年4月8日</time>
 
-                        <p>ここには記事のテキストが入ります。ここには記事のテキストが入ります。ここには記事のテキストが入ります。ここには記事のテキストが入ります。</p>
+                        <p>C言語はプログラミング言語の一つで、あらゆる言語の元となった言語として有名です。組み込み系でよく使われているイメージが強いと思います。</p>
                     </div>
                 </article>
+
                 <div class="ko3">
                     <ul class="example2">
                         <li class="this"><p class="position-senter">1</p></li>
