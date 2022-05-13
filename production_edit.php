@@ -14,7 +14,7 @@
             <input type="reset" value="リセット" class="riset_button" style="position:absolute; top:15px; left:1%;">
 
             <!--　投稿ボタン　-->
-            <input type="submit" name="submit" value="変更を保存する" class="a_btn" style="position:absolute; top:15px; right:1%;">
+            <a href="./production.php" class="a_btn" style="position:absolute; top:15px; right:1%;">変更を保存する</a>
 
             <!--　タイトル表示　-->
             <p style="position:absolute; top:90px; left:20px; left:2%;">
