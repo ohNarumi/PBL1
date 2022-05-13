@@ -11,23 +11,30 @@
     <title>質問一覧画面</title>
 </head>
 <body>
-    <div class="home-content wrapper">
-        <div class="content_top">
-            <form action="question_index.html" method="get">
-                <input class="box_search" type="search" name="search" placeholder="キーワードを入力">
-                <input class="btn_search" type="submit" name="submit" value="検索">
-            </form>
-                <div class="cp_ipselect cp_sl01">
-                    <select required>
-                    <option value="" hidden>並び替え</option>
-                    <option value="1">最終更新日時（新しい順）</option>
-                    <option value="2">最終更新日時（古い順）</option>
-                    <option value="3">総合評価順</option>
-                    <option value="4">回答数（多い順）</option>
-                    <option value="5">回答数（少ない順）</option>
-                    </select>
-                </div>
-                <a href="./question_write.html" class="a_btn">質問を投稿</a>
+<div class="oya">
+    <form action="" method="post">
+        <div class="ko1">
+            <div class="search_div">
+                  <input class="box_search" type="search" name="search" placeholder="キーワードを入力">
+            </div>
+            <div class="btn_search_div">
+                <button class="btn_search">検索</button>
+            </div>
+
+            <div class="cp_ipselect_div">
+                <select class="cp_ipselect">
+                    <option hidden>並び替え</option>
+                    <option value="1">新着順</option>
+                    <option value="2">古い順</option>
+                    <option value="3">コメント数が多い順</option>
+                    <option value="4">コメント数が少ない順</option>
+                    <option value="5">閲覧数が多い順</option>
+                    <option value="6">閲覧数が少ない順</option>
+                </select>
+            </div>
+            <div class="btn_div">
+                <a href="./question_write.php" class="a_btn">質問を投稿</a>
+            </div>
         </div>
         <div class="Gap-top">
             <div class="narrow">

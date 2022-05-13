@@ -1,12 +1,70 @@
-.home-content {
-    text-align: center;
-    margin-top: 1%;
+.oya {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin: auto;
 }
 
-.content_top {
+.ko1 {
     display: flex;
-    justify-content: center;
+    padding-top: 10px;
 }
+
+.search_div {
+    display: inline-block;
+    width: 320px;
+}
+
+.box_search {
+    width: 93.7%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn_search_div {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+}
+
+.btn_search {
+    width: 83%;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.cp_ipselect_div{
+    display: inline-block;
+    width: 220px;
+    text-align: center;
+}
+
+.cp_ipselect {
+    width: 81%;
+    height: 50px;
+    position: relative;
+    border-radius: 2px;
+    border: 1px solid #414BB2;
+    background: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn_div {
+    display: inline-block;
+    width:calc(100% - 660px);
+    text-align: right;
+}
+
+.btn {
+    width: 40%;
+    min-width: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+
 
 .area {
     width: 1000px;

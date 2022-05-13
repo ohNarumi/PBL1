@@ -70,49 +70,49 @@
     </p>
   </div>
   <!-- 回答（投稿者情報） -->
-  <div name="kaitou1_Toukousya_data" style="position:absolute; top:600px; left:55px;">
+  <div name="kaitou1_Toukousya_data" style="position:absolute; top:730px; left:55px;">
     <p>ソフトⅢコース　北海　鰊　 投稿日:2022/5/1 9:00</p>
   </div>
 
 
   <!-- 回答（投稿者のアイコン） -->
-  <div name="kaitou1_Toukousya_aikon" style="position:absolute; top:613px; left:20px;">
+  <div name="kaitou1_Toukousya_aikon" style="position:absolute; top:728px; left:20px;">
     <maru2>
   </div>
 
-  <div name="kaitou1_Toukousya_photo" style="position:absolute; top:617px; left:25px;">
+  <div name="kaitou1_Toukousya_photo" style="position:absolute; top:733px; left:25px;">
     <img src="./images/user_icon_2.png" width="20" height="20">
   </div>
 
 
   <!-- 回答（投稿者のコメント） -->
   <div class="box2">
-    <div name="kaitou1_data" style="position:absolute; top:p50x; left:60px;">
+    <div name="kaitou1_data" style="position:absolute; top:50px; left:60px;">
       <p>1. 独学でここまで勉強することができるのは才能だと思います。ただただ感服いたしました。</p>
       <p>毎日プログラミングし続けることができるのはプログラミングがめちゃくちゃ好きな証拠だと思います。</p>
       <p>これからも勉強をし続けてスーパーエンジニアになってください。</p>
     </div>
   </div>
   <!-- 回答2（投稿者情報） -->
-  <div name="kaitou2_Toukousya_data" style="position:absolute; top:787px; left:55px;">
+  <div name="kaitou2_Toukousya_data" style="position:absolute; top:915px; left:55px;">
     <p>ソフトⅣコース　鯖峰　三郎　 投稿日:2022/5/1 9:30</p>
   </div>
 
 
   <!-- 回答2（投稿者のアイコン） -->
-  <div name="kaitou2_Toukousya_aikon" style="position:absolute; top:802px; left:20px;">
+  <div name="kaitou2_Toukousya_aikon" style="position:absolute; top:913px; left:20px;">
     <maru3>
   </div>
 
 
-  <div name="kaitou2_Toukousya_photo" style="position:absolute; top:805px; left:25px;">
+  <div name="kaitou2_Toukousya_photo" style="position:absolute; top:918px; left:25px;">
     <img src="./images/user_icon_3.png" width="20" height="20">
   </div>
 
 
   <!-- 回答2（投稿者のコメント） -->
   <div class="box3">
-    <div name="kaitou2_data" style="position:absolute; top:15px; left:60px;">
+    <div name="kaitou2_data" style="position:absolute; top:50px; left:60px;">
       <p>2. <a href=""> >>1</a> 北海　鰊 さんコメントありがとうございます！！！　ここ一年で一番頑張ったと思います。</p>
       <p>基本的に寝るのと食事以外はプログラミングしてました。デジタルワークスでこんな良い結果が残せるとは夢のようです！</p>
       <p>これからも勉強しながらスーパーエンジニアになりたいと思います。記事を読んでいただきありがとうございました。</p>
@@ -120,24 +120,24 @@
   </div>
 
   <!-- 回答3（投稿者情報） -->
-  <div name="kaitou3_Toukousya_data" style="position:absolute; top:975px; left:55px;">
+  <div name="kaitou3_Toukousya_data" style="position:absolute; top:1104px; left:55px;">
     <p>ソフトⅠコース　汽水　鰡　 投稿日:2022/5/1 9:40</p>
   </div>
 
 
   <!-- 回答3（投稿者のアイコン） -->
-  <div name="Tkaitou2_Toukousya_aikon" style="position:absolute; top:990px; left:20px;">
+  <div name="Tkaitou2_Toukousya_aikon" style="position:absolute; top:1103px; left:20px;">
     <maru4>
   </div>
 
-  <div name="kaitou2_Toukousya_photo" style="position:absolute; top:995px; left:25px;">
+  <div name="kaitou2_Toukousya_photo" style="position:absolute; top:1108px; left:25px;">
     <img src="./images/user_icon_4.jpg" width="20" height="20">
   </div>
 
 
   <!-- 回答3（投稿者のコメント） -->
   <div class="box4">
-    <div name="kaitou3_data" style="position:absolute; top:20px; left:60px;">
+    <div name="kaitou3_data" style="position:absolute; top:50px; left:60px;">
       <p>3. おはようございます！今年神戸電子専門学校に入学したものです。</p>
       <p>すごく勉強になる記事でした。今から学年末に行われるデジタルワークスが待ち遠しくなってしまいました。</p>
       <p>（毎日プログラミングをしていたおかげ？ブラインドタッチ世界記録も打ち立ててしまうのは人間業ではないと思いますが。。。）</p>

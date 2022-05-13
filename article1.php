@@ -70,49 +70,49 @@
     </p>
   </div>
   <!-- 回答（投稿者情報） -->
-  <div name="kaitou1_Toukousya_data" style="position:absolute; top:600px; left:55px;">
+  <div name="kaitou1_Toukousya_data" style="position:absolute; top:730px; left:55px;">
     <p>ソフトⅢコース　鯖江　眼鏡　投稿日:2022/4/22  12:09</p>
   </div>
 
 
   <!-- 回答（投稿者のアイコン） -->
-  <div name="kaitou1_Toukousya_aikon" style="position:absolute; top:613px; left:20px;">
+  <div name="kaitou1_Toukousya_aikon" style="position:absolute; top:728px; left:20px;">
     <maru2>
   </div>
 
-  <div name="kaitou1_Toukousya_photo" style="position:absolute; top:618px; left:25px;">
+  <div name="kaitou1_Toukousya_photo" style="position:absolute; top:733px; left:25px;">
     <img src="./images/user_icon_2.png" width="20" height="20">
   </div>
 
 
   <!-- 回答（投稿者のコメント） -->
   <div class="box2">
-    <div name="kaitou1_data" style="position:absolute; top:p50x; left:60px;">
+    <div name="kaitou1_data" style="position:absolute; top:50px; left:60px;">
       <p>1. 神戸電子専門学校のIT分野で開発しているのはいるのですが、実際の勤務経験のない人がエンジニアとして必要な考え方を書くのはあまりにも恐れ多いのではないでしょうか。</p>
       <p>内容は物凄く興味深いものがありましたが、タイトルに負けてしまっている印象が否めないと思います。</p>
       <p>斉藤　太郎さんが学生生活で学んだ考え方のようなタイトルの方が良いのではないのでしょうか。</p>
     </div>
   </div>
   <!-- 回答2（投稿者情報） -->
-  <div name="kaitou2_Toukousya_data" style="position:absolute; top:787px; left:55px;">
+  <div name="kaitou2_Toukousya_data" style="position:absolute; top:913px; left:55px;">
     <p>ソフトⅡコース　博多　天神　 投稿日:2022/4/2216:34</p>
   </div>
 
 
   <!-- 回答2（投稿者のアイコン） -->
-  <div name="kaitou2_Toukousya_aikon" style="position:absolute; top:803px; left:20px;">
+  <div name="kaitou2_Toukousya_aikon" style="position:absolute; top:915px; left:20px;">
     <maru3>
   </div>
 
 
-  <div name="kaitou2_Toukousya_photo" style="position:absolute; top:808px; left:25px;">
+  <div name="kaitou2_Toukousya_photo" style="position:absolute; top:918px; left:25px;">
     <img src="./images/user_icon_3.png" width="20" height="20">
   </div>
 
 
   <!-- 回答2（投稿者のコメント） -->
   <div class="box3">
-    <div name="kaitou2_data" style="position:absolute; top:15px; left:60px;">
+    <div name="kaitou2_data" style="position:absolute; top:50px; left:60px;">
       <p>2. さすがはソフトⅣコースの方だと感じました。私にはない考え方を持っていたのでとても参考になりました。</p>
       <p>四年生になると開発に時間をかけることが多くなると聞いているのでこのような考え方のチームメイトがいたらスムーズに開発が進むのではないかの感じました。</p>
       <p>また他の記事も読んでみたいと思いました。</p>
@@ -120,25 +120,25 @@
   </div>
 
   <!-- 回答3（投稿者情報） -->
-  <div name="kaitou3_Toukousya_data" style="position:absolute; top:977px; left:55px;">
+  <div name="kaitou3_Toukousya_data" style="position:absolute; top:1104px; left:55px;">
     <p>ソフトⅠコース　神戸　電次　 投稿日:2022/4/23 7:34</p>
   </div>
 
 
   <!-- 回答3（投稿者のアイコン） -->
-  <div name="Tkaitou2_Toukousya_aikon" style="position:absolute; top:990px; left:20px;">
+  <div name="Tkaitou2_Toukousya_aikon" style="position:absolute; top:1103px; left:20px;">
     <maru4>
   </div>
 
 
-  <div name="kaitou2_Toukousya_photo" style="position:absolute; top:995px; left:25px;">
+  <div name="kaitou2_Toukousya_photo" style="position:absolute; top:1108px; left:25px;">
     <img src="./images/user_icon_4.jpg" width="20" height="20">
   </div>
 
 
   <!-- 回答3（投稿者のコメント） -->
   <div class="box4">
-    <div name="kaitou3_data" style="position:absolute; top:20px; left:60px;">
+    <div name="kaitou3_data" style="position:absolute; top:50px; left:60px;">
       <p>3. <a href=""> >>1</a> 鯖江 眼鏡 さん記事を読んでいただきありがとうございます！！！　確かにタイトルに負けてる感が否めないのでまた修正します。</p>
       <p>記事の推敲の際に参考にさせていただきたいので質問なのですが、興味深いところとはどのようなところだったのでしょうか。</p>
       <p>お答えいただければ幸いです。なおこの記事を再考し直した際はまた評価いただければ幸いです。貴重な感想ありがとうございます。</p>

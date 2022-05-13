@@ -1,7 +1,6 @@
 .question_header {
-	margin-top: 2rem;
+	margin-top: 10px;
 }
-
 .question_answer_btn {
 	position: absolute;
 	top: 100px;
@@ -126,7 +125,6 @@
 	text-align: center;
 	width: 2rem;
 }
-
 .comment_question_a_btn {
 	position: absolute;
 	right: 0;

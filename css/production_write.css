@@ -1,3 +1,10 @@
+.oya {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin: auto;
+}
 .p {
     color: black;
     font-size: 18px;
@@ -69,13 +76,13 @@
     position:relative;
     right:1%;
     width: 20%;
-    
+
     float: right;    /*　左よせ */
-    
+
     top: 170px;
-    
+
     z-index: -1;
-    
+
     margin: 2em auto;
     padding: 1em;
     height: 500px;

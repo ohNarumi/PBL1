@@ -5,11 +5,14 @@
 <title>制作物編集画面</title>
 <link rel="stylesheet" href="./css/style.css">
 <link rel="stylesheet" type="text/css" href="./css/production_write.css">
+<?php
+    require_once("./header.php");
+?>
 </head>
 
 <body>
     <form>
-        <div>
+        <div class="oya">
             <!--　リセットボタン　-->
             <input type="reset" value="リセット" class="riset_button" style="position:absolute; top:15px; left:1%;">
 
@@ -45,22 +48,22 @@
 
             <!--　URL・添付ファイル　ゾーン　-->
             <div class="box5">
-                <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:15px; left:20px;">
-                <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:15px; left:120px;">
-                <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:15px; left:220px;">
-                <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:15px; left:320px;">
-                <div class="p3" style="position:absolute; top:85px; left:20px;">
+                <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:15px; left:0px;">
+                <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:15px; left:100px;">
+                <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:15px; left:200px;">
+                <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:15px; left:300px;">
+                <div class="p3" style="position:absolute; top:85px; left:0px;">
                     〇〇〇.jar
                 </div>
 
-                <div class="p3" style="position:absolute; top:85px; left:120px;">
+                <div class="p3" style="position:absolute; top:85px; left:100px;">
                     〇〇〇.txt
                 </div>
 
-                <div class="p3" style="position:absolute; top:85px; left:225px;">
+                <div class="p3" style="position:absolute; top:85px; left:205px;">
                     〇〇〇.doxt
                 </div>
-                <div class="p3" style="position:absolute; top:85px; left:325px;">
+                <div class="p3" style="position:absolute; top:85px; left:305px;">
                     〇〇〇.doxt
                 </div>
                 <div class="wrapper" style="position:absolute; top:-70px; left:10px;">
@@ -71,22 +74,22 @@
 
             <!--　写真　ゾーン　-->
             <div class="box6">
-                <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:15px; left:20px;">
-                <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:15px; left:120px;">
-                <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:15px; left:220px;">
-                <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:15px; left:320px;">
-                <div class="p3" style="position:absolute; top:85px; left:20px;">
+                <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:15px; left:0px;">
+                <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:15px; left:100px;">
+                <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:15px; left:200px;">
+                <img src="./images/image_4.png" width="60" height="60" style="position:absolute; top:15px; left:300px;">
+                <div class="p3" style="position:absolute; top:85px; left:0px;">
                     〇〇〇.jpg
                 </div>
 
-                <div class="p3" style="position:absolute; top:85px; left:120px;">
+                <div class="p3" style="position:absolute; top:85px; left:100px;">
                     〇〇〇.png
                 </div>
 
-                <div class="p3" style="position:absolute; top:85px; left:225px;">
+                <div class="p3" style="position:absolute; top:85px; left:205px;">
                     〇〇〇.png
                 </div>
-                <div class="p3" style="position:absolute; top:85px; left:325px;">
+                <div class="p3" style="position:absolute; top:85px; left:305px;">
                     〇〇〇.png
                 </div>
                 <div class="wrapper" style="position:absolute; top:-70px; left:10px;">
@@ -184,19 +187,19 @@
                     添付物・URL
                 </p>
 
-                <div style="position:absolute; top:575px; left:10%;">
+                <div style="position:absolute; top:557.5px; left:10%;">
                     <input type="submit" name="submit" value="URL" class="fail_button" >
                 </div>
 
-                <div style="position:absolute; top:575px; left:22%;">
+                <div style="position:absolute; top:557.5px; left:22%;">
                     <input type="submit" name="submit" value="ファイル選択" class="fail_button" >
                 </div>
 
-                <div class="p" style="position:absolute; top:580px; left:37%;">
+                <div class="p" style="position:absolute; top:560px; left:37%;">
                     画像
                 </div>
 
-                <div style="position:absolute; top:575px; left:50%;">
+                <div style="position:absolute; top:557.5px; left:50%;">
                     <input type="submit" name="submit" value="画像を選択" class="fail_button" >
                 </div>
             </div>

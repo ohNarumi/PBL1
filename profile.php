@@ -14,8 +14,7 @@
 </head>
 <body class="wrap">
 <div class="submission">
-    <!-- プロフィール編集画面がないためリンク先を設定しない -->
-    <input type="submit" name="submit" value="編集" class="btn submit" >
+    <a class="a_btn" href="./profile_edit.php">編集</a>
 </div>
 <div class="content">
 <h1 class="heading-lv1 text-center">User</h1>
