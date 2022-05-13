@@ -11,7 +11,7 @@
 </head>
 <body>
 <div class="submission">
-  <a class="a_btn" herf="#">変更を保存する</a>
+  <a class="a_btn" href="#">変更を保存する</a>
 </div>
 
 <div class="content">

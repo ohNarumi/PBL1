@@ -66,14 +66,14 @@
                     <input class="box_search" type="search" name="search" placeholder="キーワードを入力">
                     <input class="btn_search" type="submit" name="submit" value="検索">
                 </form>
-                    <div class="cp_ipselect cp_sl01">
-                        <select required>
-                        <option value="" hidden>並び替え</option>
-                        <option value="1">最終更新日時（新しい順）</option>
-                        <option value="2">最終更新日時（古い順）</option>
-                        <option value="3">総合評価順</option>
-                        </select>
-                    </div>
+                <div class="cp_ipselect_div">
+                    <select class="cp_ipselect">
+                    <option hidden>並び替え</option>
+                    <option value="1">最終更新日時（新しい順）</option>
+                    <option value="2">最終更新日時（古い順）</option>
+                    <option value="3">総合評価順</option>
+                    </select>
+                </div>
             </div>
             <div class="content_comment">
                 <p class="comment_number">1.</p>

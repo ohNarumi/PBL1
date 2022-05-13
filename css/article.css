@@ -10,7 +10,7 @@ display: flex; /*横並び*/
 }
 .flex .image {
 width: 640px; /*画像サイズ指定*/
-margin: 0;
+margin: 10px;
 padding: 0;
 overflow: hidden;
 position: relative;
@@ -96,8 +96,8 @@ font-size: 15px;
 } */
 
 .container .date{
-bottom: 33px;
-right: 0;
+bottom: 20px;
+right: 10px;
 margin: 0;
 color: white;
 background: gray;
@@ -110,8 +110,8 @@ position: relative;
 
 .star-contents {
 position: absolute;
-right: 10px;
-bottom: 100px;
+right: 0.5%;
+bottom: 10.5%;
 }
 
 .star-contents .star5_rating{
@@ -157,7 +157,7 @@ maru {
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	-o-border-radius: 50px;
-	-ms-border-radius: 50px; 
+	-ms-border-radius: 50px;
 	border-radius: 50px;
 }
 
@@ -169,7 +169,7 @@ maru2 {
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	-o-border-radius: 50px;
-	-ms-border-radius: 50px; 
+	-ms-border-radius: 50px;
 	border-radius: 50px;
 }
 
@@ -181,7 +181,7 @@ maru3 {
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	-o-border-radius: 50px;
-	-ms-border-radius: 50px; 
+	-ms-border-radius: 50px;
 	border-radius: 50px;
 }
 
@@ -193,7 +193,7 @@ maru4 {
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	-o-border-radius: 50px;
-	-ms-border-radius: 50px; 
+	-ms-border-radius: 50px;
 	border-radius: 50px;
 }
 
@@ -406,7 +406,7 @@ textarea:focus {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	cursor: pointer;
-  } 
+  }
 
   .title {
     display: inline-block;
