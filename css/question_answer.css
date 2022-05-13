@@ -45,6 +45,16 @@
 	height:100px;
 }
 
+.title {
+  display: inline-block;
+margin: 1rem auto;
+padding: 1rem 1rem 0;
+color: #414BB2;
+font-weight: bold;
+  font-size: 2rem;
+letter-spacing: 0.5pt;
+}
+
 .question_header{
   position:relative;
   height:100px;
