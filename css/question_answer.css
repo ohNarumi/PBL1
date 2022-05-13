@@ -45,6 +45,16 @@
 	height:100px;
 }
 
+.title {
+  display: inline-block;
+margin: 1rem auto;
+padding: 1rem 1rem 0;
+color: #414BB2;
+font-weight: bold;
+  font-size: 2rem;
+letter-spacing: 0.5pt;
+}
+
 .question_header{
   position:relative;
   height:100px;
@@ -94,7 +104,7 @@
 
   margin: 2em auto;
   padding: 1em;
-  height: 460px;
+  height: 520px;
   background-color: #fff; /* 背景色 */
   border: 2px solid white; /* 枠線 */
 }
@@ -156,4 +166,10 @@
   font-weight: bold;
   font-size: 2rem;
   letter-spacing: 0.5pt;
+}
+
+.priority_rank_text_yellow {
+	font-size: 1.25rem;
+	color: yellow;
+	-webkit-text-stroke: 1px #000;
 }
