@@ -172,7 +172,6 @@
         </td>
       </tr>
     </table>
-    <input type="submit" name="submit" value="投稿する" class="btn contact-submit">
-    <!-- <a href="http://localhost/PBL1/article.php" class="a_btn">投稿する</a> コメント投稿後の画面が必要-->
+    <a href="http://localhost/PBL1/article.php" class="a_btn">投稿する</a>
   </form>
   </div>
