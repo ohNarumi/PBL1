@@ -24,7 +24,7 @@
                 <textarea class="textarea" type="text" name="toukou" rows=”18″ cols=”40″ wrap=”hard” style="position: relative; top:15px; left:3%;"></textarea>
 
             <div class="box1" style="position: relative;">
-                <input type="search" name="search" placeholder="キーワードを入力" class="searche" style="position:absolute; left:-2px;">
+                <input type="search" name="search" placeholder="キーワードを入力" class="searche" style="position:absolute; left:4%;">
                 <div class="form-check-inline" style="position:absolute; top:65px; left:4%;transform:scale(1.2);">
                     <div class="custom-control custom-checkbox">
                     <input class="custom-control-input" type="checkbox" id="custom-check1">
