@@ -17,7 +17,7 @@
                 <input type="reset" value="リセット" class="riset_button" style="position:absolute; top:15px; left:1%;">
 
                 <!--　投稿ボタン　-->
-                <input type="submit" name="submit" value="投稿" class="btn" style="position:absolute; top:15px; right:1%;">
+                <input type="button" name="submit" value="投稿" class="btn" style="position:absolute; top:15px; right:1%;" onclick='location.href="http://localhost/PBL1/production_index.php"'>
 
                 <!--　タイトル表示　-->
                 <p style="position:absolute; top:90px; left:20px; left:2%;">
