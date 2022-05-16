@@ -72,12 +72,9 @@
                     </div>
                 </div>
             </div>
-
+        </div>
         <br><br>
         <input type="file" style="position: relative; top:15px; left:3%;">
-
-        
-
     </body>
     
 </html>
