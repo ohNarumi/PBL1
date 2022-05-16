@@ -25,7 +25,7 @@
                     <li><a href="#"><span>タグ</span></a></li>
                 </ul>
             </section>
-            <input type="submit" name="submit" value="編集" class="btn btn_edit" >
+            <a href="./production_edit.php" class="a_btn">編集</a>
             <div class="images_list">
                 <img class="production_image" src="./images/image_1.jpg" alt="">
                 <img class="production_image" src="./images/image_3.jpg" alt="">
@@ -123,7 +123,7 @@
                         </td>
                     </tr>
                 </table>
-                <input type="submit" name="submit" value="投稿する" class="btn contact-submit" >
+                <a href="./production.php" class="a_btn">投稿する</a>
             </form>
         </div>
     </div>

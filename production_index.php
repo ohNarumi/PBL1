@@ -59,8 +59,8 @@
                 <div class="ko3">
                     <ul class="example2">
                         <li class="this"><p class="position-senter">1</p></li>
-                        <li><a href=""><p class="position-senter">2</p></a></li>
-                        <li><a href=""><p class="position-senter">次へ</p></a></li>
+                        <li><a href="./production_index.php"><p class="position-senter">2</p></a></li>
+                        <li><a href="./production_index.php"><p class="position-senter">次へ</p></a></li>
                         </ul>
                 </div>
 
@@ -74,7 +74,11 @@
                                 <span class="time_span">月/日　時：分<br></span>
                                 <img class="icon" src="./images/user_icon_1.png">
                                 <span class="profile_span">コース名<br>user name</span>
-                                <div class="production_div"><span class="production_span">制作物名</span></div>
+                                <div class="production_div">
+                                    <a href="./production.php">
+                                        <span class="production_span">制作物名</span>
+                                    </a>
+                                </div>
                                 <img class="message_icon" src="./images/message_icon.png">
                                 <span class="span_inline">コメント数</span>
                                 <span class="tag"><ul><li><a>タグ名</a></li></ul></span>
@@ -92,7 +96,11 @@
                                 <span class="time_span">月/日　時：分<br></span>
                                 <img class="icon" src="./images/user_icon_1.png">
                                 <span class="profile_span">コース名<br>user name</span>
-                                <div class="production_div"><span class="production_span">制作物名</span></div>
+                                <div class="production_div">
+                                    <a href="./production.php">
+                                        <span class="production_span">制作物名</span>
+                                    </a>
+                                </div>
                                 <img class="message_icon" src="./images/message_icon.png">
                                 <span class="span_inline">コメント数</span>
                                 <span class="tag"><ul><li><a>タグ名</a></li></ul></span>

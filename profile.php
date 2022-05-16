@@ -41,7 +41,9 @@
   <div class="tab-content">
     <div class="content_class">
       <div class="question">
-          <p class="title">質問タイトル</p>
+          <a href="./question.php">
+            <p class="title">質問タイトル</p>
+          </a>
           <p class="text">質問本文(1行で収まるように表示できる文字数を制限する)</p>
           <img class="message_icon" src="images/message_icon.png">
           <p class="message_icon_number">回答数</p>
@@ -56,7 +58,9 @@
           </section>
       </div>
       <div class="question">
-          <p class="title">質問タイトル</p>
+          <a href="./question.php">
+            <p class="title">質問タイトル</p>
+          </a>
           <p class="text">質問本文(1行で収まるように表示できる文字数を制限する)質問本文(1行で収まるように表示できる文字数を制限する)質問本文(1行で収まるように表示できる文字数を制限する)質問本文(1行で収まるように表示できる文字数を制限する)質問本文(1行で収まるように表示できる文字数を制限する)</p>
           <img class="message_icon" src="images/message_icon.png">
           <p class="message_icon_number">回答数</p>
@@ -76,7 +80,9 @@
   <div class="tab-content">
       <div class="content_class">
         <div class="question">
-            <p class="title">回答した質問タイトル</p>
+            <a href="./question.php">
+                <p class="title">回答した質問タイトル</p>
+            </a>
             <p class="text2">日付</p>
             <p class="text2">時間</p>
             <a class="text2" href="">投稿者名</a>
@@ -93,7 +99,9 @@
             <p class="message_icon_number">7</p>
         </div>
         <div class="question">
-            <p class="title">回答した質問タイトル</p>
+            <a href="./question.php">
+                <p class="title">回答した質問タイトル</p>
+            </a>
             <p class="text2">日付</p>
             <p class="text2">時間</p>
             <a class="text2" href="">投稿者名</a>
