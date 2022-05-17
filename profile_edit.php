@@ -35,34 +35,30 @@
     </div>
 </div>
 
-<div class="content">
+<div class="content_sub">
     <h2 class="heading-lv2 heading-margin">名前</h2>
     <div class="search_div">
         <input class="box_search" type="search" name="search">
     </div>
-</div>
 
-<div class="content">
-    <div class="search_div">
-        <input class="box_search" type="search" name="search">
-    </div>
     <h2 class="heading-lv2 heading-margin">コース</h2>
     <div class="search_div">
         <input class="box_search" type="search" name="search">
     </div>
     <h2 class="heading-lv2 heading-margin">学科</h2>
-</div>
-
-<div class="content">
-    <h2 class="heading-lv2 heading-margin">ひとこと</h2>
-    <div class="search_div_sub">
+    <div class="search_div">
         <input class="box_search" type="search" name="search">
     </div>
-</div>
+    <h2 class="heading-lv2 heading-margin">学年</h2>
+    <div class="search_div">
+        <input class="box_search" type="search" name="search">
+    </div>
 
-<div class="content_sub">
-<h2 class="heading-lv2 heading-margin">自己紹介</h2>
-<textarea name="コメント" class="form-textarea"></textarea>
+    <h2 class="heading-lv2 heading-margin">ひとこと</h2>
+    <textarea name="コメント" class="form-textarea_sub"></textarea>
+
+    <h2 class="heading-lv2 heading-margin">自己紹介</h2>
+    <textarea name="コメント" class="form-textarea"></textarea>
 </div>
 </body>
 </html>
