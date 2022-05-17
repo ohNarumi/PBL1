@@ -37,7 +37,7 @@
 
                     <div class="btn_div">
                         <!-- 記事投稿画面がないため、リンク先を設定しない -->
-                        <button class="btn">投稿</button>
+                        <a href="./article_posting.php" class="a_btn">投稿</a>
                     </div>
                 </div>
 <div class="Gap-top">
