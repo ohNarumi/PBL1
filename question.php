@@ -35,7 +35,7 @@
             <h4 class="underbar">投稿者：　　ソフトⅣ 神戸 太郎</h4>
         </div>
         <div class="question_answer_btn">
-            <a href="./question_answer.php" class="a_btn">回答する</a>
+            <a href="http://localhost/PBL1/question_answer.php" class="a_btn">回答する</a>
         </div>
     </div>
 
@@ -63,6 +63,7 @@
         </div>
     </div>
 
+    <!-- 各ユーザーのページ作成の必要アリ -->
     <div>
         <p class="title">回答２件</p>
         <div class="content_comment">
