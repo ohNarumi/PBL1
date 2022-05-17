@@ -20,7 +20,7 @@
                         <img  class="googleicon" src="./images/google_icon.png">
                     </div>
                     <div class="textspan">
-                        <a href="http://localhost/PBL1/index.php" class="header-link">Googleアカウントでログイン</a>
+                        <a href="./index.php" class="header-link">Googleアカウントでログイン</a>
                     </div>
                 </button>
             </div>

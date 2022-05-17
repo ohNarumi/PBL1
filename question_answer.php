@@ -70,7 +70,7 @@
   <!-- "回答" ボタン -->
   <div class="answer_button">
     <!-- 回答後の画面が必要 -->
-    <a href="http://localhost/PBL1/question.php" class="a_btn right_button">回答</a>
+    <a href="./question.php" class="a_btn right_button">回答</a>
   </div>
 
 </body>

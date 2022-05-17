@@ -172,6 +172,6 @@
         </td>
       </tr>
     </table>
-    <a href="http://localhost/PBL1/article.php" class="a_btn">投稿する</a>
+    <a href="./article.php" class="a_btn">投稿する</a>
   </form>
   </div>

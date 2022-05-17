@@ -11,7 +11,7 @@
 </head>
 <body>
 <div class="submission">
-  <a class="a_btn" href="http://localhost/PBL1/profile.php">変更を保存する</a>
+  <a class="a_btn" href="./profile.php">変更を保存する</a>
 </div>
 
 <div class="content">

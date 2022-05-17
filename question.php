@@ -35,7 +35,7 @@
             <h4 class="underbar">投稿者：　　ソフトⅣ 神戸 太郎</h4>
         </div>
         <div class="question_answer_btn">
-            <a href="http://localhost/PBL1/question_answer.php" class="a_btn">回答する</a>
+            <a href="./question_answer.php" class="a_btn">回答する</a>
         </div>
     </div>
 
