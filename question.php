@@ -63,6 +63,7 @@
         </div>
     </div>
 
+    <!-- 各ユーザーのページ作成の必要アリ -->
     <div>
         <p class="title">回答２件</p>
         <div class="content_comment">

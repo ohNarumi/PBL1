@@ -14,7 +14,9 @@
     <form>
         <div class="oya">
             <!--　リセットボタン　-->
-            <input type="reset" value="リセット" class="riset_button" style="position:absolute; top:15px; left:1%;">
+            <div class="resetbtn_div">
+                <a class="a_btn" href="./production_edit.php">リセット</a>
+            </div>
 
             <!--　投稿ボタン　-->
             <a href="./production.php" class="a_btn" style="position:absolute; top:15px; right:1%;">変更を保存する</a>

@@ -14,11 +14,11 @@
     <div class="oya">
         <div class="div_1">
             <div class="resetbtn_div">
-                <a class="a_btn" href="">リセット</a>
+                <a class="a_btn" href="./question_write.php">リセット</a>
             </div>
 
             <div class="btn_div">
-                <a class="btn" href="">投稿</a>
+                <a class="btn" href="./question_index.php">投稿</a>
             </div>
         </div>
 

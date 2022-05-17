@@ -78,7 +78,9 @@
                     </figure>
 
                     <div class="article-info">
-                        <h1>macbook Air と macbook Pro の違い</h1>
+                        <a href="./article.php">
+                            <h1>macbook Air と macbook Pro の違い</h1>
+                        </a>
                         <section class="tag">
                             <ul>
                                 <li><a href="#"><span>Mac</span></a></li>
@@ -97,7 +99,9 @@
                     </figure>
 
                     <div class="article-info">
-                        <h1>一週間で身につくのC言語基礎入門編</h1>
+                        <a href="./article.php">
+                            <h1>一週間で身につくのC言語基礎入門編</h1>
+                        </a>
                         <section class="tag">
                             <ul>
                                 <li><a href="#"><span>C言語</span></a></li>
@@ -117,7 +121,9 @@
                     </figure>
 
                     <div class="article-info">
-                        <h1>Linuxで使える便利なコマンド一覧</h1>
+                        <a href="./article.php">
+                            <h1>Linuxで使える便利なコマンド一覧</h1>
+                        </a>
                         <section class="tag">
                             <ul>
                                 <li><a href="#"><span>Linux</span></a></li>
@@ -137,8 +143,9 @@
                     </figure>
 
                     <div class="article-info">
-                        <h1>Vue.jsとは何なのか5分で解説してみた</h1>
-
+                        <a href="./article.php">
+                            <h1>Vue.jsとは何なのか5分で解説してみた</h1>
+                        </a>
                         <section class="tag">
                             <ul>
                                 <li><a href="#"><span>JavaScript</span></a></li>
@@ -157,8 +164,9 @@
                     </figure>
 
                     <div class="article-info">
-                        <h1>Javaが難しいとされている理由</h1>
-
+                        <a href="./article.php">
+                            <h1>Javaが難しいとされている理由</h1>
+                        </a>
                         <section class="tag">
                             <ul>
                                 <li><a href="#"><span>Java</span></a></li>
@@ -177,8 +185,9 @@
                     </figure>
 
                     <div class="article-info">
-                        <h1>Gitを用いたチーム開発講座</h1>
-
+                        <a href="./article.php">
+                            <h1>Gitを用いたチーム開発講座</h1>
+                        </a>
                         <section class="tag">
                             <ul>
                                 <li><a href="#"><span>Git</span></a></li>
@@ -197,8 +206,9 @@
                     </figure>
 
                     <div class="article-info">
-                        <h1>Pythonで簡単なAIを作る方法</h1>
-
+                        <a href="./article.php">
+                            <h1>Pythonで簡単なAIを作る方法</h1>
+                        </a>
                         <section class="tag">
                             <ul>
                                 <li><a href="#"><span>Python</span></a></li>
@@ -217,8 +227,9 @@
                     </figure>
 
                     <div class="article-info">
-                        <h1>C言語で個人的に一番難しいポインタについて解説する</h1>
-
+                        <a href="./article.php">
+                            <h1>C言語で個人的に一番難しいポインタについて解説する</h1>
+                        </a>
                         <section class="tag">
                             <ul>
                                 <li><a href="#"><span>C言語</span></a></li>
@@ -237,8 +248,9 @@
                     </figure>
 
                     <div class="article-info">
-                        <h1>Rubyがよくわかるようになる方法</h1>
-
+                        <a href="./article.php">
+                            <h1>Rubyがよくわかるようになる方法</h1>
+                        </a>
                         <section class="tag">
                             <ul>
                                 <li><a href="#"><span>Ruby</span></a></li>
@@ -257,8 +269,9 @@
                     </figure>
 
                     <div class="article-info">
-                        <h1>xamppの使い方とその設定方法</h1>
-
+                        <a href="./article.php">
+                            <h1>xamppの使い方とその設定方法</h1>
+                        </a>
                         <section class="tag">
                             <ul>
                                 <li><a href="#"><span>PHP</span></a></li>
@@ -277,8 +290,9 @@
                     </figure>
 
                     <div class="article-info">
-                        <h1>C言語が挫折しやすいと言われている原因</h1>
-
+                        <a href="./article.php">
+                            <h1>C言語が挫折しやすいと言われている原因</h1>
+                        </a>
                         <section class="tag">
                             <ul>
                                 <li><a href="#"><span>C言語</span></a></li>
@@ -296,8 +310,8 @@
                     <ul class="example2">
                         <!-- ２ページ目以降の画面がない -->
                         <li class="this"><p class="position-senter">1</p></li>
-                        <li><a href=""><p class="position-senter">2</p></a></li>
-                        <li><a href=""><p class="position-senter">次へ</p></a></li>
+                        <li><a href="./index.php"><p class="position-senter">2</p></a></li>
+                        <li><a href="./index.php"><p class="position-senter">次へ</p></a></li>
                         </ul>
                 </div>
         </div>
