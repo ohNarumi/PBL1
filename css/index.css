@@ -5,7 +5,7 @@ body {
 /* ラッパー部分　*/
 #wrapper {
 	background-color: white;
-	min-width: 1300px;
+	min-width: 80%;
 }
 /* コンテンツ部分　*/
 #content {
@@ -191,22 +191,6 @@ body {
 /* 絞り込み機能に関して */
 /* 「.Gap-top」から「#narrow_menu」まで */
 /* htmlファイルのクラスの設定の仕方は「question_index.css」を参考にする */
-.Gap-top {
-	padding-top: 20px;
-}
-.narrow {
-	display: inline-block;
-	width: 60%;
-	background-color: #ffffff;
-	border: 1px solid #414BB2;
-}
-.narrow_accordion {
-	text-align: left;
-}
-#narrow_menu {
-	display: inline-block;
-	margin: 2%;
-}
 .oya {
 	position: absolute;
 	left: 0;
@@ -221,80 +205,83 @@ body {
 }
 
 .search_div {
-	display: inline-block;
-	width: 320px;
+    display: inline-block;
+    width: 25%;
+    min-width: 150px;
 }
 
 .box_search {
-	width: 93.7%;
-	margin: 0px;
-	padding: 0px;
+    width: 93.7%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .btn_search_div {
-	display: inline-block;
-	width: 120px;
-	text-align: center;
+    display: inline-block;
+    width: 10%;
+    min-width: 50px;
+    text-align: center;
 }
 
 .btn_search {
-	width: 83%;
-	margin: 0px;
-	padding: 0px;
+    width: 83%;
+    margin: 0px;
+    padding: 0px;
 
 }
 
 .cp_ipselect_div{
-	display: inline-block;
-	width: 220px;
-	text-align: center;
+    display: inline-block;
+    width: 15%;
+    min-width: 100px;
+    text-align: center;
 }
 
 .cp_ipselect {
-	width: 81%;
-	height: 50px;
-	position: relative;
-	border-radius: 2px;
-	border: 1px solid #414BB2;
-	background: #ffffff;
-	margin: 0px;
-	padding: 0px;
+    width: 81%;
+    height: 50px;
+    position: relative;
+    border-radius: 2px;
+    border: 1px solid #414BB2;
+    background: #ffffff;
+    margin: 0px;
+    padding: 0px;
 }
 
 .btn_div {
-	display: inline-block;
-	width:calc(100% - 660px);
-	text-align: right;
+    display: inline-block;
+    width:50%;
+    text-align: right;
+
 }
 
-.btn {
-	width: 40%;
-	min-width: 40px;
-	margin: 0px;
-	padding: 0px;
+.a_btn {
+    
+    margin: 0px;
+    padding: 13px 5%;
 }
 
 .Gap-top {
-	padding-top: 20px;
+	padding-top: 10px;
 }
 
 .ko2 {
-	display: inline-block;
 	width: 100%;
 	background-color: #ffffff;
 	border: 1px solid #414BB2;
 }
-
-.accordion {
-	text-align: right;
+#menu1 {
+    display: inline-block;
+    margin: 2%;
 }
 
-#menu1 {
-	display: inline-block;
-	margin: 2%;
+#menu1 div{
+    display: inline-block;
+    margin-right: 1%;
 }
 .ko3 {
 	width: 100%;
+	margin-top: 3%;
 	text-align: center;
 }
 

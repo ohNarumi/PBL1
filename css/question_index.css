@@ -3,6 +3,7 @@
     left: 0;
     right: 0;
     width: 80%;
+    min-width: 480px;
     margin: auto;
 }
 
@@ -13,7 +14,8 @@
 
 .search_div {
     display: inline-block;
-    width: 320px;
+    width: 25%;
+    min-width: 150px;
 }
 
 .box_search {
@@ -24,7 +26,8 @@
 
 .btn_search_div {
     display: inline-block;
-    width: 120px;
+    width: 10%;
+    min-width: 50px;
     text-align: center;
 }
 
@@ -37,7 +40,8 @@
 
 .cp_ipselect_div{
     display: inline-block;
-    width: 220px;
+    width: 15%;
+    min-width: 100px;
     text-align: center;
 }
 
@@ -54,7 +58,8 @@
 
 .btn_div {
     display: inline-block;
-    width:calc(100% - 660px);
+    width: 50%;
+    min-width: 100px;
     text-align: right;
 }
 
@@ -65,6 +70,23 @@
     padding: 0px;
 }
 
+.Gap-top {
+    padding-top: 10px;
+}
+
+.narrow {
+    width: 100%;
+}
+
+#narrow_menu {
+    display: inline-block;
+    margin: 2%;
+}
+
+#narrow_menu div{
+    display: inline-block;
+    margin-right: 1%;
+}
 
 .area {
     width: 1000px;
@@ -147,14 +169,8 @@ input:checked + .tab_class + .content_class {
 }
 
 .a_btn {
-    margin: 0 10px;
-    display: inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
-    background: #414BB2;;
-    color: #fff;
-    font-weight: bold;
-    cursor: pointer;
+    margin: 0;
+    padding: 13px 5%;
 }
 
 .a_btn:hover {

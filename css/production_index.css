@@ -2,7 +2,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    width: 70%;
+    width: 80%;
     min-width: 480px;
     margin: auto;
 }
@@ -66,27 +66,27 @@
 .a_btn {
     
     margin: 0px;
-    padding: 13px 7%;
+    padding: 13px 4%;
 }
 
 .Gap-top {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .ko2 {
-    display: inline-block;
     width: 100%;
     background-color: #ffffff;
     border: 1px solid #414BB2;
 }
 
-.accordion {
-    text-align: right;
-}
-
 #menu1 {
     display: inline-block;
     margin: 2%;
+}
+
+#menu1 div{
+    display: inline-block;
+    margin-right: 1%;
 }
 
 .ko3 {
