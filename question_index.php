@@ -59,37 +59,94 @@
             <input type="radio" name="tab_name" id="tab1" checked>
             <label class="tab_class" for="tab1">解決済</label>
             <div class="content_class">
+                <!-- 質問その１ -->
                 <div class="question">
                     <a href="./question.php">
-                        <p class="title">質問タイトル</p>
+                        <p class="title">Rubyのif文がループしない</p>
                     </a>
-                    <p class="text">質問本文(1行で収まるように表示できる文字数を制限する)</p>
+                    <p class="text">if文を用いて条件分岐を指定したのですが、初めに「1か2以外の数字を指定」した後に「1」あるいは「2」を入力しても、それぞれの条件分岐に進まずに処理自体が終了してしまいます。</p>
                     <img class="message_icon" src="./images/message_icon.png">
-                    <p class="message_icon_number">回答数</p>
-                    <p class="text2">日付</p>
-                    <p class="text2">時間</p>
-                    <a class="text2" href="./profile.php">投稿者名</a>
+                    <p class="message_icon_number">2</p>
+                    <p class="text2">2022/5/13</p>
+                    <p class="text2">09:59</p>
+                    <a class="text2" href="./profile.php">神戸　太郎</a>
                     <section class="tag">
                         <ul>
-                            <li><a href="#"><span>タグ（頭に#をつける）</span></a></li>
-                            <li><a href="#"><span>タグ</span></a></li>
+                            <li><a href="#"><span>Ruby</span></a></li>
+                            <li><a href="#"><span>初学者</span></a></li>
                         </ul>
                     </section>
                 </div>
+                <!-- 質問その２ -->
                 <div class="question">
                     <a href="./question.php">
-                        <p class="title">質問タイトル</p>
+                        <p class="title">Pythonで簡易的なGUIのアプリを作りたいのですがおすすめのフレームワークありますか？</p>
                     </a>
-                    <p class="text">質問本文(1行で収まるように表示できる文字数を制限する)</p>
+                    <p class="text">Pythonの基本文法を学んだ初心者です。ちゃんと勉強したことが頭に入っているかどうか試してみたいので実際にアプリを作ってみたいと考えています。そこでおすすめのフレームワーク等があれば教えて欲しいです!</p>
                     <img class="message_icon" src="./images/message_icon.png">
-                    <p class="message_icon_number">回答数</p>
-                    <p class="text2">日付</p>
-                    <p class="text2">時間</p>
-                    <a class="text2" href="./profile.php">投稿者名</a>
+                    <p class="message_icon_number">7</p>
+                    <p class="text2">2022/5/14</p>
+                    <p class="text2">12:00</p>
+                    <a class="text2" href="./profile.php">武藤　珈琲</a>
                     <section class="tag">
                         <ul>
-                            <li><a href="#"><span>タグ（頭に#をつける）</span></a></li>
-                            <li><a href="#"><span>タグ</span></a></li>
+                            <li><a href="#"><span>Python</span></a></li>
+                            <li><a href="#"><span>プログラミング</span></a></li>
+                        </ul>
+                    </section>
+                </div>
+                <!-- 質問その３ -->
+                <div class="question">
+                    <a href="./question.php">
+                        <p class="title">AWS SSOでこのようなエラーが出ます。</p>
+                    </a>
+                    <p class="text">AWS SSOでno accessエラーが出てしまいます。「Provide your administrator with the following info: No access」解決方法」解決方法がわかりません。</p>
+                    <img class="message_icon" src="./images/message_icon.png">
+                    <p class="message_icon_number">5</p>
+                    <p class="text2">2022/5/14</p>
+                    <p class="text2">16:07</p>
+                    <a class="text2" href="./profile.php">真奥　貞夫</a>
+                    <section class="tag">
+                        <ul>
+                            <li><a href="#"><span>AWS</span></a></li>
+                            <li><a href="#"><span>SSO</span></a></li>
+                        </ul>
+                    </section>
+                </div>
+                <!-- 質問その4 -->
+                <div class="question">
+                    <a href="./question.php">
+                        <p class="title">DjangoでCSSファイルが読み込めないです。</p>
+                    </a>
+                    <p class="text">独学でDjangoの勉強をしているのですが、どのようにしてもDjangoでCSSファイルを読み込むことができません。もし詳しい方がいればアドバイスいただけると嬉しいです。</p>
+                    <img class="message_icon" src="./images/message_icon.png">
+                    <p class="message_icon_number">10</p>
+                    <p class="text2">2022/5/15</p>
+                    <p class="text2">07:00</p>
+                    <a class="text2" href="./profile.php">佐倉　千代</a>
+                    <section class="tag">
+                        <ul>
+                            <li><a href="#"><span>Django</span></a></li>
+                            <li><a href="#"><span>Python</span></a></li>
+                            <li><a href="#"><span>CSS</span></a></li>
+                        </ul>
+                    </section>
+                </div>
+                <!-- 質問その5 -->
+                <div class="question">
+                    <a href="./question.php">
+                        <p class="title">Javaで特定のファイルのみを表示したいのですが……</p>
+                    </a>
+                    <p class="text">特定のファイルのが表示されているようにプログラムを組んでいるはずなのですが、全てのファイルが表示されてしまいます。解決方法がわかりません。</p>
+                    <img class="message_icon" src="./images/message_icon.png">
+                    <p class="message_icon_number">12</p>
+                    <p class="text2">2022/5/16</p>
+                    <p class="text2">23:00</p>
+                    <a class="text2" href="./profile.php">志摩　リン</a>
+                    <section class="tag">
+                        <ul>
+                            <li><a href="#"><span>Java</span></a></li>
+                            <li><a href="#"><span>プログラム</span></a></li>
                         </ul>
                     </section>
                 </div>
@@ -97,6 +154,96 @@
             <input type="radio" name="tab_name" id="tab2" >
             <label class="tab_class" for="tab2">未解決</label>
             <div class="content_class">
+                <!-- 未解決質問その１ -->
+                <div class="question">
+                    <a href="./question.php">
+                        <p class="title">Gitで他の人が作業していたブランチで作業したいです。</p>
+                    </a>
+                    <p class="text">Gitを用いたグループ開発を行なっています。複数人でGitを使うのが初めてで、他のメンバーが作成したブランチを使って共同作業したいのですがわかりません。</p>
+                    <img class="message_icon" src="./images/message_icon.png">
+                    <p class="message_icon_number">0</p>
+                    <p class="text2">2022/5/10</p>
+                    <p class="text2">07:50</p>
+                    <a class="text2" href="./profile.php">折木　奉太郎</a>
+                    <section class="tag">
+                        <ul>
+                            <li><a href="#"><span>Git</span></a></li>
+                            <li><a href="#"><span>チーム開発</span></a></li>
+                        </ul>
+                    </section>
+                </div>
+                <!-- 未解決質問その2 -->
+                <div class="question">
+                    <a href="./question.php">
+                        <p class="title">HTMLとCSSだけで5段階評価を作りたいです。</p>
+                    </a>
+                    <p class="text">HTMLとCSSだけで5段階評価を作りたいです。課題でどうしても必要になったのですが、HTMLとCSSは一度も触れたことがなくそもそもできるのかどうかもわかりません。</p>
+                    <img class="message_icon" src="./images/message_icon.png">
+                    <p class="message_icon_number">0</p>
+                    <p class="text2">2022/5/10</p>
+                    <p class="text2">09:58</p>
+                    <a class="text2" href="./profile.php">久石　譲</a>
+                    <section class="tag">
+                        <ul>
+                            <li><a href="#"><span>HTML</span></a></li>
+                            <li><a href="#"><span>CSS</span></a></li>
+                        </ul>
+                    </section>
+                </div>
+                <!-- 未解決質問その3 -->
+                <div class="question">
+                    <a href="./question.php">
+                        <p class="title">Dockerのイメージとコンテナの削除の仕方がわかりません。</p>
+                    </a>
+                    <p class="text">docker imageのコマンドを打つとどんどん溜まっているイメージを削除したいのですが、方法がわからないです。今年からDockerを使い始めたので初心者にもわかりやすく教えて頂けると嬉しいです。</p>
+                    <img class="message_icon" src="./images/message_icon.png">
+                    <p class="message_icon_number">0</p>
+                    <p class="text2">2022/5/11</p>
+                    <p class="text2">23:28</p>
+                    <a class="text2" href="./profile.php">司波　達也</a>
+                    <section class="tag">
+                        <ul>
+                            <li><a href="#"><span>Docker</span></a></li>
+                            <li><a href="#"><span>初学者</span></a></li>
+                        </ul>
+                    </section>
+                </div>
+                <!-- 未解決質問その4 -->
+                <div class="question">
+                    <a href="./question.php">
+                        <p class="title">Pythonであみだくじのアプリを作っています。</p>
+                    </a>
+                    <p class="text">Tkinterというフレームを用いてあみだくじのアプリを作っています。GUIのアプリケーションを作るのは初めてでわからないことがあったので質問を投稿させていただきました。</p>
+                    <img class="message_icon" src="./images/message_icon.png">
+                    <p class="message_icon_number">0</p>
+                    <p class="text2">2022/5/12</p>
+                    <p class="text2">12:34</p>
+                    <a class="text2" href="./profile.php">関　優太</a>
+                    <section class="tag">
+                        <ul>
+                            <li><a href="#"><span>Python</span></a></li>
+                            <li><a href="#"><span>フレームワーク</span></a></li>
+                        </ul>
+                    </section>
+                </div>
+                <!-- 未解決質問その5 -->
+                <div class="question">
+                    <a href="./question.php">
+                        <p class="title">Linuxで消えたファイルを復活させる方法はありますか？</p>
+                    </a>
+                    <p class="text">間違ったディレクトリにファイルを作ってしまったのでファイルを移動させてみたらファイルが消えてしまったのですが、とても重要なファイルなので復活させることができるならさせたいです。誰か助けてください！！</p>
+                    <img class="message_icon" src="./images/message_icon.png">
+                    <p class="message_icon_number">0</p>
+                    <p class="text2">2022/5/13</p>
+                    <p class="text2">14:50</p>
+                    <a class="text2" href="./profile.php">杉本　佐一</a>
+                    <section class="tag">
+                        <ul>
+                            <li><a href="#"><span>Linux</span></a></li>
+                            <li><a href="#"><span>サーバー</span></a></li>
+                        </ul>
+                    </section>
+                </div>
 
             </div>
         </div>
