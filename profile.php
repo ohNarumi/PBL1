@@ -30,7 +30,7 @@
         <li><a href="#"><span>タグ</span></a></li>
     </ul>
 <h2 class="heading-lv2 heading-margin text-center">？？ ？？</h2>
-<h2 class="heading-lv2 heading-margin text-center">？？ コース ？？学科</h2>
+<h2 class="heading-lv2 heading-margin text-center">？？ コース ？？学科？年</h2>
 <p class="text text-center">ここに軽いひとことコメント等の内容が入ります。</p>
 
 <h3 class="heading-lv3 heading-margin text-center">自己紹介</h3>

@@ -116,6 +116,17 @@
     -moz-appearance: none;
 }
 
+.form-textarea_sub {
+  width: 96%;
+  padding: 10px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
 .search_div {
 	display: inline-block;
 	width: 320px;
