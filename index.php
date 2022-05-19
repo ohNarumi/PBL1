@@ -74,7 +74,7 @@
                 <!-- 記事１ -->
                 <article class="article">
                     <figure>
-                        <img src="images/image_1.jpg">
+                        <img src="images/image_1_1.png">
                     </figure>
 
                     <div class="article-info">
@@ -95,7 +95,7 @@
                 <!-- 記事２ -->
                 <article class="article">
                     <figure>
-                        <img src="images/article_index_c.png">
+                        <img src="images/article_index_c_1.png">
                     </figure>
 
                     <div class="article-info">
@@ -117,7 +117,7 @@
                 <!-- 記事3 -->
                 <article class="article">
                     <figure>
-                        <img src="images/article_index_linux-tux.png">
+                        <img src="images/article_index_linux-tux_1.png">
                     </figure>
 
                     <div class="article-info">
@@ -139,7 +139,7 @@
                 <!-- 記事４ -->
                 <article class="article">
                     <figure>
-                        <img src="images/article_index_vue.png">
+                        <img src="images/article_index_vue_1.png">
                     </figure>
 
                     <div class="article-info">
@@ -160,7 +160,7 @@
                 <!-- 記事５ -->
                 <article class="article">
                     <figure>
-                        <img src="images/article_index_java.png">
+                        <img src="images/article_index_java_1.png">
                     </figure>
 
                     <div class="article-info">
@@ -181,7 +181,7 @@
                 <!-- 記事６ -->
                 <article class="article">
                     <figure>
-                        <img src="images/article_index_git.png">
+                        <img src="images/article_index_git_1.png">
                     </figure>
 
                     <div class="article-info">
@@ -202,7 +202,7 @@
 
                 <article class="article">
                     <figure>
-                        <img src="images/article_index_python.png">
+                        <img src="images/article_index_python_1.png">
                     </figure>
 
                     <div class="article-info">
@@ -223,7 +223,7 @@
                 <!-- 記事７ -->
                 <article class="article">
                     <figure>
-                        <img src="images/article_index_c.png">
+                        <img src="images/article_index_c_1.png">
                     </figure>
 
                     <div class="article-info">
@@ -286,7 +286,7 @@
                 <!-- 記事１０ -->
                 <article class="article">
                     <figure>
-                        <img src="images/article_index_c.png">
+                        <img src="images/article_index_c_1.png">
                     </figure>
 
                     <div class="article-info">
