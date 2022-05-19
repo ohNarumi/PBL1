@@ -181,7 +181,7 @@
                 <!-- 記事６ -->
                 <article class="article">
                     <figure>
-                        <img src="images/article_index_git.png">
+                        <img src="images/article_index_github.png">
                     </figure>
 
                     <div class="article-info">
