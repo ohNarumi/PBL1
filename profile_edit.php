@@ -54,6 +54,9 @@
         <input class="box_search" type="search" name="search">
     </div>
 
+    <h2 class="heading-lv2 heading-margin">ひとこと</h2>
+    <textarea name="コメント" class="form-textarea_sub"></textarea>
+
     <h2 class="heading-lv2 heading-margin">自己紹介</h2>
     <textarea name="コメント" class="form-textarea"></textarea>
 </div>
