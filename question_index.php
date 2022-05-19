@@ -176,7 +176,16 @@
                         </ul>
                     </section>
                 </div>
+
+            <div class="ko3">
+                <ul class="example2">
+                    <li class="this"><p class="position-senter">1</p></li>
+                    <li><a href="./question_index_2.php"><p class="position-senter">2</p></a></li>
+                    <li><a href="./question_index_2.php"><p class="position-senter">次へ</p></a></li>
+                </ul>
             </div>
+        </div>
+
             <input type="radio" name="tab_name" id="tab2" >
             <label class="tab_class" for="tab2">未解決</label>
             <div class="content_class">
@@ -271,6 +280,13 @@
                     </section>
                 </div>
 
+                <div class="ko3">
+                <ul class="example2">
+                    <li class="this"><p class="position-senter">1</p></li>
+                    <li><a href="./question_index_2.php"><p class="position-senter">2</p></a></li>
+                    <li><a href="./question_index_2.php"><p class="position-senter">次へ</p></a></li>
+                </ul>
+            </div>
             </div>
         </div>
     </div>
