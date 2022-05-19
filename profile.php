@@ -33,8 +33,15 @@
 <h2 class="heading-lv2 heading-margin text-center">ソフトⅣ コース ITエキスパート学科</h2>
 <p class="text text-center">ITの知識をみなさんと共有していきたいです!</p>
 
-<h3 class="heading-lv3 heading-margin text-center">自己紹介</h3>
-<p class="text text-center">普段は自作のゲームPCでゲームやプログラミングをしています。得意な言語はC言語とJavaとPythonです。</p>
+<h3 class="heading-lv3 heading-margin">自己紹介</h3>
+<p class="text">普段は自作のゲームPCでゲームやプログラミングをしています。得意な言語はC言語とJavaとPythonです。</p>
+<h3 class="heading-lv3 heading-margin">記録</h3>
+<p class="text">記事投稿数：3</p>
+<p class="text">平均記事評価値：3.8</p>
+<p class="text">質問投稿数：2</p>
+<p class="text">質問回答数：2</p>
+<p class="text">ベストアンサー数：0</p>
+<p class="text">制作物投稿数：0</p>
 </div>
 <div class="tab-wrap">
   <input id="TAB-01" type="radio" name="TAB" class="tab-switch" checked="checked" /><label class="tab-label" for="TAB-01">質問履歴</label>
