@@ -9,7 +9,6 @@
 
 .a_btn {
     margin: 0 10px;
-    display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
     background: #414BB2;;
@@ -126,8 +125,21 @@
 	width: 2rem;
 }
 .comment_question_a_btn {
-	position: absolute;
-	right: 0;
+	display: inline-block;
 	top: 1rem;
 	font-size: 0.75rem;
+}
+.bestanswer_a_btn {
+	display: inline-block;
+	color: red;
+	background-color: #fff;
+	border: 1px solid red;
+	top: 1rem;
+	font-size: 0.75rem;
+	margin-left: 42.5%;
+}
+
+.bestanswer_a_btn:hover {
+	background-color: tomato;
+	color: #fff;
 }
