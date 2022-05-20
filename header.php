@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="./css/header.css">
 <div id="header">
     <div id="header_top">
-        <span id="header_title">プログラミング共有サイト</span>
+        <span id="header_title">プログラミング<br>共有サイト</span>
     </div>
     <nav>
         <ul>
