@@ -31,7 +31,6 @@
     </ul>
 <h2 class="heading-lv2 heading-margin text-center">神戸　太郎</h2>
 <h2 class="heading-lv2 heading-margin text-center">ソフトⅣ コース ITエキスパート学科</h2>
-<p class="text text-center">ITの知識をみなさんと共有していきたいです!</p>
 
 <h3 class="heading-lv3 heading-margin">自己紹介</h3>
 <p class="text">普段は自作のゲームPCでゲームやプログラミングをしています。得意な言語はC言語とJavaとPythonです。</p>
