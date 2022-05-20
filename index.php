@@ -39,7 +39,7 @@
 
         <div class="Gap-top">
             <div class="ko2">
-                <div class="accordion" onclick="obj=document.getElementById('menu1').style; obj.display=(obj.display=='none')?'block':'none';">
+                <div class="narrow_accordion" onclick="obj=document.getElementById('menu1').style; obj.display=(obj.display=='none')?'block':'none';">
                     <a style="cursor:pointer;">▼絞り込み</a>
                 </div>
 
