@@ -406,9 +406,9 @@ textarea:focus {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	cursor: pointer;
-  }
+}
 
-  .title {
+.title {
     display: inline-block;
 	margin: 1rem auto;
 	padding: 1rem 1rem 0;
@@ -416,4 +416,36 @@ textarea:focus {
 	font-weight: bold;
     font-size: 2rem;
 	letter-spacing: 0.5pt;
+}
+
+.text_align_center{
+	text-align: center;
+}
+
+.review{
+	background-color: white;
+}
+
+.inline_block {
+	display: inline-block;
+}
+
+.cp_ipselect_div{
+	display: flex;
+    width: 15%;
+    min-width: 100px;
+    text-align: center;
+}
+
+.cp_ipselect {
+    width: 81%;
+    height: 50px;
+    position: relative;
+    border-radius: 2px;
+    border: 1px solid #414BB2;
+    background: #ffffff;
+    margin: 0px;
+    padding: 0px;
+	font-weight: bold;
+	font-size: 1.25rem;
 }
