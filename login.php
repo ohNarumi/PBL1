@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="div">
-        <span class="title">ウェブタイトル・ロゴ</span>
+        <span class="title">プログラミング共有サイト</span>
 
             <img class="image" src="./images/profile_icon.png">
 

@@ -33,7 +33,7 @@
             </div>
 
             <div class="btn_div">
-                <a class="a_btn" href="production_write.php">記事を投稿</a>
+                <a class="a_btn" href="article_posting.php">記事を投稿</a>
             </div>
         </div>
 
