@@ -45,13 +45,39 @@
 
                 <div id="narrow_menu" style="display:none;clear:both;">
                     <span>絞り込み：</span>
-                    <input type="checkbox" id="scales" name="C言語"><label for="C言語">C言語</label>
-                    <input type="checkbox" id="scales" name="Java"><label for="Java">Java</label>
-                    <input type="checkbox" id="scales" name="Python"><label for="Python">Python</label>
-                    <input type="checkbox" id="scales" name="PHP"><label for="PHP">PHP</label>
-                    <input type="checkbox" id="scales" name="HTML"><label for="HTML">HTML</label>
-                    <input type="checkbox" id="scales" name="CSS"><label for="CSS">CSS</label>
-                    <input type="checkbox" id="scales" name="IoT"><label for="IoT">IoT</label>
+                    <div>
+                        <input type="checkbox" id="scales" name="C言語"><label for="C言語">C言語</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="scales" name="Java"><label for="Java">Java</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="scales" name="Python"><label for="Python">Python</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="scales" name="PHP"><label for="PHP">PHP</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="scales" name="HTML"><label for="HTML">HTML</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="scales" name="CSS"><label for="CSS">CSS</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="scales" name="IoT"><label for="IoT">IoT</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="scales" name="javascript"><label for="javascript">javascript</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="scales" name="flutter"><label for="flutter">flutter</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="scales" name="Ruby"><label for="Ruby">Ruby</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="scales" name="Linux"><label for="Linux">Linux</label>
+                    </div>
                 </div>
             </div>
         </div>
@@ -150,7 +176,16 @@
                         </ul>
                     </section>
                 </div>
+
+            <div class="ko3">
+                <ul class="example2">
+                    <li class="this"><p class="position-senter">1</p></li>
+                    <li><a href="./question_index_2.php"><p class="position-senter">2</p></a></li>
+                    <li><a href="./question_index_2.php"><p class="position-senter">次へ</p></a></li>
+                </ul>
             </div>
+        </div>
+
             <input type="radio" name="tab_name" id="tab2" >
             <label class="tab_class" for="tab2">未解決</label>
             <div class="content_class">
@@ -245,6 +280,13 @@
                     </section>
                 </div>
 
+                <div class="ko3">
+                <ul class="example2">
+                    <li class="this"><p class="position-senter">1</p></li>
+                    <li><a href="./question_index_2.php"><p class="position-senter">2</p></a></li>
+                    <li><a href="./question_index_2.php"><p class="position-senter">次へ</p></a></li>
+                </ul>
+            </div>
             </div>
         </div>
     </div>
