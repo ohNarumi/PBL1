@@ -254,7 +254,7 @@ input:checked + .tab_class + .content_class {
 .btn_edit {
 	position:absolute;
 	right:0;
-	margin: 1rem;
+	margin: 0.5rem;
 }
 
 /* コメント投稿に関するクラスなど */

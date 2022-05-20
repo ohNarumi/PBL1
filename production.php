@@ -12,6 +12,7 @@
 </head>
 <body>
     <div class="area">
+        <a href="./production_edit.php" class="a_btn btn_edit">編集</a>
         <input type="radio" name="tab_name" id="tab1" checked>
         <label class="tab_class" for="tab1">制作物</label>
         <div class="content_class">
@@ -25,7 +26,6 @@
                     <li><a href="#"><span>タグ</span></a></li>
                 </ul>
             </section>
-            <a href="./production_edit.php" class="a_btn">編集</a>
             <div class="images_list">
                 <img class="production_image" src="./images/image_1.jpg" alt="">
                 <img class="production_image" src="./images/image_3.jpg" alt="">
