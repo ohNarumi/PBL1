@@ -5,6 +5,7 @@
 <title>制作物投稿画面</title>
 <link rel="stylesheet" href="./css/style.css">
 <link rel="stylesheet" type="text/css" href="./css/production_write.css">
+<link rel="stylesheet" href="./css/question_write.css">
 <?php
     require_once("./header.php")
 ?>
@@ -14,10 +15,10 @@
         <form>
             <div class="oya">
                 <!--　リセットボタン　-->
-                <a class="riset_button" href="./production_write.php" style="position:absolute; top:15px; left:1%;">リセット</a>
+                <a class="riset_button" href="./production_write.php" style="position:absolute; top:5px; left:1%;">リセット</a>
 
                 <!--　投稿ボタン　-->
-                <a href="./production_index.php" class="a_btn">投稿</a>
+                <a href="./production_index.php" class="a_btn btn_div">投稿</a>
                 <!-- <input type="button" name="submit" value="投稿" class="btn" style="position:absolute; top:15px; right:1%;" onclick='location.href="./production_index.php"'> -->
 
                 <!--　タイトル表示　-->

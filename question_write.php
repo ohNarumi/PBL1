@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="description" content=>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/production_write.css">
     <link rel="stylesheet" href="./css/question_write.css">
     <?php
     require_once("./header.php");
@@ -13,9 +14,7 @@
 <body>
     <div class="oya">
         <div class="div_1">
-            <div class="resetbtn_div">
-                <a class="a_btn" href="./question_write.php">リセット</a>
-            </div>
+                <a class="riset_button" href="./question_write.php" style="position:absolute; top:5px; left:1%;">リセット</a>
 
             <div class="btn_div">
                 <a class="btn" href="./question_index.php">投稿</a>

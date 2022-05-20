@@ -121,6 +121,8 @@
 	font-weight: bold;
 	letter-spacing: 0.5pt;
 	text-decoration: none;
+    text-align: center;
+    line-height: 2.5;
 	background-color: white;
 	border: 1px solid red;
 	cursor: pointer;
