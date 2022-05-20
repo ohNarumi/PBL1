@@ -15,7 +15,7 @@
     <form action="" method="post">
         <div class="ko1">
             <div class="search_div">
-                  <input class="box_search" type="search" name="search" placeholder="キーワードを入力">
+                <input class="box_search" type="search" name="search" placeholder="キーワードを入力">
             </div>
             <div class="btn_search_div">
                 <button class="btn_search">検索</button>
@@ -83,10 +83,10 @@
         </div>
         <div class="area">
             <input type="radio" name="tab_name" id="tab1" checked>
-            <label class="tab_class" for="tab1">解決済</label>
+            <label class="tab_class" for="tab1">未解決</label>
             <div class="content_class">
-                <!-- 質問その１ -->
-                <div class="question">
+                <!-- 未解決質問その１ -->
+                <div class="question border_yellow">
                     <a href="./question.php">
                         <p class="title">Rubyのif文がループしない</p>
                     </a>
@@ -103,8 +103,8 @@
                         </ul>
                     </section>
                 </div>
-                <!-- 質問その２ -->
-                <div class="question">
+                <!-- 未解決質問その２ -->
+                <div class="question border_green">
                     <a href="./question.php">
                         <p class="title">Pythonで簡易的なGUIのアプリを作りたいのですがおすすめのフレームワークありますか？</p>
                     </a>
@@ -121,8 +121,8 @@
                         </ul>
                     </section>
                 </div>
-                <!-- 質問その３ -->
-                <div class="question">
+                <!-- 未解決質問その３ -->
+                <div class="question border_red">
                     <a href="./question.php">
                         <p class="title">AWS SSOでこのようなエラーが出ます。</p>
                     </a>
@@ -139,8 +139,8 @@
                         </ul>
                     </section>
                 </div>
-                <!-- 質問その4 -->
-                <div class="question">
+                <!-- 未解決質問その4 -->
+                <div class="question border_red">
                     <a href="./question.php">
                         <p class="title">DjangoでCSSファイルが読み込めないです。</p>
                     </a>
@@ -158,8 +158,8 @@
                         </ul>
                     </section>
                 </div>
-                <!-- 質問その5 -->
-                <div class="question">
+                <!-- 未解決質問その5 -->
+                <div class="question border_yellow">
                     <a href="./question.php">
                         <p class="title">Javaで特定のファイルのみを表示したいのですが……</p>
                     </a>
@@ -180,17 +180,17 @@
             <div class="ko3">
                 <ul class="example2">
                     <li class="this"><p class="position-senter">1</p></li>
-                    <li><a href="./question_index_2.php"><p class="position-senter">2</p></a></li>
+                    <!-- <li><a href="./question_index_2.php"><p class="position-senter">2</p></a></li> -->
                     <li><a href="./question_index_2.php"><p class="position-senter">次へ</p></a></li>
                 </ul>
             </div>
         </div>
 
             <input type="radio" name="tab_name" id="tab2" >
-            <label class="tab_class" for="tab2">未解決</label>
+            <label class="tab_class" for="tab2">解決済</label>
             <div class="content_class">
-                <!-- 未解決質問その１ -->
-                <div class="question">
+                <!-- 解決済質問その１ -->
+                <div class="question border_green">
                     <a href="./question.php">
                         <p class="title">Gitで他の人が作業していたブランチで作業したいです。</p>
                     </a>
@@ -207,8 +207,8 @@
                         </ul>
                     </section>
                 </div>
-                <!-- 未解決質問その2 -->
-                <div class="question">
+                <!-- 解決済質問その2 -->
+                <div class="question border_green">
                     <a href="./question.php">
                         <p class="title">HTMLとCSSだけで5段階評価を作りたいです。</p>
                     </a>
@@ -225,8 +225,8 @@
                         </ul>
                     </section>
                 </div>
-                <!-- 未解決質問その3 -->
-                <div class="question">
+                <!-- 解決済質問その3 -->
+                <div class="question border_yellow">
                     <a href="./question.php">
                         <p class="title">Dockerのイメージとコンテナの削除の仕方がわかりません。</p>
                     </a>
@@ -243,8 +243,8 @@
                         </ul>
                     </section>
                 </div>
-                <!-- 未解決質問その4 -->
-                <div class="question">
+                <!-- 解決済質問その4 -->
+                <div class="question border_green">
                     <a href="./question.php">
                         <p class="title">Pythonであみだくじのアプリを作っています。</p>
                     </a>
@@ -261,8 +261,8 @@
                         </ul>
                     </section>
                 </div>
-                <!-- 未解決質問その5 -->
-                <div class="question">
+                <!-- 解決済質問その5 -->
+                <div class="question border_red">
                     <a href="./question.php">
                         <p class="title">Linuxで消えたファイルを復活させる方法はありますか？</p>
                     </a>
@@ -283,7 +283,7 @@
                 <div class="ko3">
                 <ul class="example2">
                     <li class="this"><p class="position-senter">1</p></li>
-                    <li><a href="./question_index_2.php"><p class="position-senter">2</p></a></li>
+                    <!-- <li><a href="./question_index_2.php"><p class="position-senter">2</p></a></li> -->
                     <li><a href="./question_index_2.php"><p class="position-senter">次へ</p></a></li>
                 </ul>
             </div>
