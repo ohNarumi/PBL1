@@ -67,8 +67,8 @@
   <div class="star-contents">
     <p>
       <i>閲覧数:256件<br>
-      あなたの評価：なし</i><span class="star5_rating" data-rate="0"></span><br>
-      みんなの評価：4.0</i><span class="star5_rating" data-rate="4"></span>
+      あなたの評価：5.0</i><span class="star5_rating" data-rate="5"></span><br>
+      みんなの評価：4.5</i><span class="star5_rating" data-rate="4.5"></span>
     </p>
   </div>
   <!-- 回答（投稿者情報） -->
@@ -174,20 +174,18 @@
       </div>
     </form>
   <!-- レビュー機能 -->
-  <!-- デモでは５を入力する -->
   <p class="title">この記事をレビューする</p>
   <div style="display: flex;">
     <div class="cp_ipselect_div" style="margin-left: 3rem;">
       <select class="cp_ipselect">
-        <option hidden>評価値を選択</option>
         <option value="1">星１</option>
         <option value="2">星２</option>
         <option value="3">星３</option>
         <option value="4">星４</option>
-        <option value="5">星５</option>
+        <option value="5" selected>星５</option>
       </select>
     </div>
     <div>
-      <a href="./article_after_review.php" class="a_btn article_btn inline_block">レビューを投稿する</a>
+      <a href="./article.php" class="a_btn article_btn inline_block">レビューを再投稿する</a>
     </div>
   </div>
