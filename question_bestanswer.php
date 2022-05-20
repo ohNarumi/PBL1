@@ -73,7 +73,6 @@
             <a class="comment_text" href="">ソフトⅣ 神戸 三郎</a>
             <p class="comment_text">2022/05/13</p>
             <p class="comment_text">15：01</p>
-            <a href="./question_bestanswer.php" class="a_btn bestanswer_a_btn">ベストアンサー</a>
             <a href="./question_write.php" class="a_btn comment_question_a_btn">コメントする</a>
             <p class="comment_text2">入力を受け取るところでループして入力値を検証して次に進むのが良いと思います。</p>
             <p class="comment_text2">input_number = ""</p>
@@ -122,7 +121,6 @@
             <a class="comment_text" href="">ソフトⅢ 神戸 次郎</a>
             <p class="comment_text">2022/05/13</p>
             <p class="comment_text">10：32</p>
-            <a href="./question_bestanswer.php" class="a_btn bestanswer_a_btn">ベストアンサー</a>
             <a href="./question_write.php" class="a_btn comment_question_a_btn">コメントする</a>
             <p class="comment_text2">そう書いているからそう動作しているだけです。
                 else部分で最後にgetsしていますが、そのままプログラムの後方へ進んでいって、条件分岐には戻りません。</p>
