@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/question_answer.css">
-    <link rel="stylesheet" href="./css/question.css">
+    <link rel="stylesheet" href="./css/question_bestanswer.css">
     <?php
     require_once("./header.php");
     ?>
@@ -65,41 +65,14 @@
 
     <!-- 各ユーザーのページ作成の必要アリ -->
     <div>
-        <p class="title">回答２件</p>
-        <div class="content_comment">
-            <p class="comment_number">1.</p>
-            <img class="comment_icon" src="./images/user_icon_maru_1.png">
-            <a class="comment_text" href="">ソフトⅢ 神戸 次郎</a>
-            <p class="comment_text">2022/05/13</p>
-            <p class="comment_text">10：32</p>
-            <a href="./question_bestanswer.php" class="a_btn bestanswer_a_btn">ベストアンサー</a>
-            <a href="./question_write.php" class="a_btn comment_question_a_btn">コメントする</a>
-            <p class="comment_text2">そう書いているからそう動作しているだけです。
-                else部分で最後にgetsしていますが、そのままプログラムの後方へ進んでいって、条件分岐には戻りません。</p>
-            <img class="message_icon" src="images/good.png">
-            <p class="message_icon_number">1</p>
-
-            <div class="content_comment">
-                <p class="comment_number">3.</p>
-                <img class="comment_icon" src="./images/user_icon_maru_2.png">
-                <a class="comment_text" href="">ソフトⅣ 神戸 太郎</a>
-                <p class="comment_text">2022/05/14</p>
-                <p class="comment_text">08：01</p><br>
-                <p class="comment_text2">おっしゃる通りで、if文構造の理解が浅はかでした。</p>
-                <p class="comment_text2">他にコメントをくださった方のプログラムを参考に打ち込んだところ、正常にループがされました。</p>
-                <p class="comment_text2">ありがとうございました。</p>
-                <img class="message_icon" src="images/good.png">
-                <p class="message_icon_number">1</p>
-            </div>
-
-        </div>
-        <div class="content_comment">
+        <p class="title">回答２件</p><br>
+        <h1 class="bestanswer">ベストアンサー</h1>
+          <div class="content_comment_sub">
             <p class="comment_number">2.</p>
             <img class="comment_icon" src="./images/user_icon_maru_3.png">
             <a class="comment_text" href="">ソフトⅣ 神戸 三郎</a>
             <p class="comment_text">2022/05/13</p>
             <p class="comment_text">15：01</p>
-            <a href="./question_bestanswer.php" class="a_btn bestanswer_a_btn">ベストアンサー</a>
             <a href="./question_write.php" class="a_btn comment_question_a_btn">コメントする</a>
             <p class="comment_text2">入力を受け取るところでループして入力値を検証して次に進むのが良いと思います。</p>
             <p class="comment_text2">input_number = ""</p>
@@ -141,9 +114,35 @@
                 <img class="message_icon" src="images/good.png">
                 <p class="message_icon_number">2</p>
             </div>
-    </div>
-    <ul id="pagination">
+        </div>
+        <div class="content_comment">
+            <p class="comment_number">1.</p>
+            <img class="comment_icon" src="./images/user_icon_maru_1.png">
+            <a class="comment_text" href="">ソフトⅢ 神戸 次郎</a>
+            <p class="comment_text">2022/05/13</p>
+            <p class="comment_text">10：32</p>
+            <a href="./question_write.php" class="a_btn comment_question_a_btn">コメントする</a>
+            <p class="comment_text2">そう書いているからそう動作しているだけです。
+                else部分で最後にgetsしていますが、そのままプログラムの後方へ進んでいって、条件分岐には戻りません。</p>
+            <img class="message_icon" src="images/good.png">
+            <p class="message_icon_number">1</p>
+
+            <div class="content_comment">
+                <p class="comment_number">3.</p>
+                <img class="comment_icon" src="./images/user_icon_maru_2.png">
+                <a class="comment_text" href="">ソフトⅣ 神戸 太郎</a>
+                <p class="comment_text">2022/05/14</p>
+                <p class="comment_text">08：01</p><br>
+                <p class="comment_text2">おっしゃる通りで、if文構造の理解が浅はかでした。</p>
+                <p class="comment_text2">他にコメントをくださった方のプログラムを参考に打ち込んだところ、正常にループがされました。</p>
+                <p class="comment_text2">ありがとうございました。</p>
+                <img class="message_icon" src="images/good.png">
+                <p class="message_icon_number">1</p>
+            </div>
+        </div>
+        <ul id="pagination">
             <li>1</li>
-    </ul>
+        </ul>
+  </div>
 </body>
 </html>
