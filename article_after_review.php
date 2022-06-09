@@ -189,3 +189,7 @@
       <a href="./article.php" class="a_btn article_btn inline_block">レビューを再投稿する</a>
     </div>
   </div>
+
+
+
+  
